@@ -1,0 +1,36 @@
+title: DailyMenu
+
+files: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
+    tags:
+      label: tags
+      type: tags
+
+pages:
+  template: dailymenu
+
+options: 
+  template: false  
+  status: false  
+  url: false  
+
+fields:
+  title:
+    label: Title
+    type:  title
+
+  pagewrapper:
+    label: Page wrapper Image
+    type: image
+    width: 1/2
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  abouttxt:
+    label: About text
+    type:  markdown

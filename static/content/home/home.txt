@@ -1,0 +1,69 @@
+Title: Home
+
+----
+
+Pagewrapper: banner.jpg
+
+----
+
+Intro: Serving fine medical only cannabis products to 18+ patients
+
+----
+
+Buttontxt: Daily Menu
+
+----
+
+Abouttxt: 
+
+## NEW At Higher Grade, we pride ourselves on providing premium quality cannabis with exceptional service
+
+Higher Grade was founded to give Denver residents a break from the hassle of medical and recreational combination stores. We take our time to make all patients feel welcome and appreciated. Pair that with the Olio concentrates and the best cannabis around and you have a dispensary that is worth a visit.
+
+----
+
+Spot1image: spot1.jpg
+
+----
+
+Spot1txt: 
+
+## Strain Menu
+Featuring gourmet Indica, Sativa, and Hybrid cannabis, verified by independent testing.
+
+----
+
+Spot2image: spot2.jpg
+
+----
+
+Spot2txt: 
+
+## Extracts
+Featuring Olio concentrates and the highest-quality cannabis concentrates on the market. Lab tested for potency and purity.
+
+----
+
+Spot3image: spot3.jpg
+
+----
+
+Spot3txt: 
+
+## Edibles
+Offering a distinctive collection of cannabis infused products including a full line of edibles and topicals of unsurpassed quality.
+
+----
+
+Text: 
+
+## Get started
+
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
