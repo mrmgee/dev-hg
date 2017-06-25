@@ -1,0 +1,56 @@
+title: Home
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  pagewrapper:
+    label: Page wrapper Image
+    type: image
+    width: 1/2
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  buttontxt:
+    label: Button label
+    type:  text
+
+  abouttxt:
+    label: About text
+    type:  markdown
+
+  spot1image:
+    label: Spotlight 1 Image
+    type: image
+    width: 1/2
+
+  spot1txt:
+    label: Spotlight 1 text
+    type:  markdown
+
+  spot2image:
+    label: Spotlight 2 Image
+    type: image
+    width: 1/2
+    
+  spot2txt:
+    label: Spotlight 2 text
+    type:  markdown
+
+  spot3image:
+    label: Spotlight 3 Image
+    type: image
+    width: 1/2
+    
+  spot3txt:
+    label: Spotlight 3 text
+    type:  markdown
+
+  text:
+    label: Text
+    type:  textarea

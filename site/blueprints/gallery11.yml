@@ -1,0 +1,59 @@
+title: Higher Grade - Strains
+
+pages: false
+
+files: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
+
+fields:
+  title:
+    label: Title
+    type:  title
+    
+  pagewrapper:
+    label: Page wrapper Image
+    type: image
+    width: 1/2
+    
+  intro:
+    label: Intro
+    type:  markdown
+
+  overtxt:
+    label: Ovierview text
+    type:  markdown
+
+  builder:
+    label: Sections
+    type: builder
+    fieldsets:
+      bodytext:
+        label: Body Text
+        snippet: sections/bodytext
+        fields:
+          text:
+            label: text
+            type: textarea
+      imageBanner:
+        label: Image Banner
+        snippet: sections/imagebanner
+        fields:
+          picture:
+            label: Background Image
+            type: image
+          text:
+            label: Headline Text
+            type: text
+      quote:
+        label: Quote
+        snippet: sections/quote
+        fields:
+          text:
+            label: Quote Text
+            type: textarea
+          citation:
+            label: Citation
+            type: text
