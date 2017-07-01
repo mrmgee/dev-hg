@@ -28,8 +28,12 @@ fields:
     default: 5
     width: 1/4
 
-  text:
-    label: Text
+  Intro:
+    label: Intro text
+    type:  textarea
+
+  Abouttxt:
+    label: About text
     type: textarea
 
   info:

@@ -1,8 +1,14 @@
         <!-- Footer -->
           <footer id="footer">
             <div class="inner">
-              <h2 class="major">Get in touch</h2>
-              <p>A dispensary that is worth a visit. At Higher Grade we take our time to make all patients feel welcome and appreciated.</p>
+              <h2 class="major">Follow us <a href="https://www.instagram.com/highergradeco/" target="_blank">@highergradeco</a></h2>
+              <ul class="icons">
+                <li><a href="https://www.instagram.com/highergradeco/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.facebook.com/HigherGradeCO/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://twitter.com/HigherGradeCO" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+              </ul>
+
               <form method="post" action="#">
                 <div class="field">
                   <label for="name">Name</label>
@@ -31,14 +37,6 @@
                 <li class="fa-phone">(303) 955-0186</li>
               </ul>
 
-
-            <ul class="icons">
-              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-              <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-            </ul>
             <ul class="copyright">
               <li>&copy; Higher Grade</li>
             </ul>
@@ -47,20 +45,19 @@
       </div>
 
     <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.scrollex.min.js"></script>
-      <script src="assets/js/jquery.scrolly.min.js"></script>
-      <script src="assets/js/jquery.onvisible.min.js"></script>
-      <script src="assets/js/skel.min.js"></script>
-      <script src="assets/js/util.js"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.min.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.scrollex.min.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.scrolly.min.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.onvisible.min.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/skel.min.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/util.js'?>"></script>
 <?php if (($page->uri()=='gallery') || ($page->uri()=='gallerysub')): ?>
-      <script src="assets/js/jquery.photoswipe-global.js"></script>
-      <script src="assets/js/photoswipe-ui-default.min.js"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.photoswipe-global.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/photoswipe-ui-default.min.js'?>"></script>
 <?php endif ?>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-      <script src="assets/js/jquery.cookie.js"></script>
-      <script src="assets/js/age-verification.js"></script>
-      <script src="assets/js/main.js"></script>
-
+      <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.cookie.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/age-verification.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/main.js'?>"></script>
   </body>
 </html>

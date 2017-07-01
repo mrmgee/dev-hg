@@ -1688,31 +1688,135 @@
 		margin: 0 0 3.5em 0;
 	}
 
-		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-			border-bottom: solid 2px #fff;
-			display: inline-block;
-			padding-bottom: 1em;
-			position: relative;
+	header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
+		border-bottom: solid 2px #fff;
+		display: inline-block;
+		padding-bottom: 1em;
+		position: relative;
+	}
+
+	header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
+		content: '';
+		display: block;
+		height: 1px;
+	}
+
+	header.major p {
+		color: #fff;
+		top: 0;
+	}
+
+	article.index {
+		padding: 1.4em 0 0 0;
+		clear: both;
+	}
+
+	article figure {
+		display: inline-block;
+		position: relative;
+		width: 40%;
+		float: left;
+	}
+	article.single figure {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+	}
+	article figure img {
+		-moz-order: 1;
+		-webkit-order: 1;
+		-ms-order: 1;
+		order: 1;
+		border-radius: 0;
+		width: 100%;
+	}
+	article .text {
+		padding: 0.5em 4em 0.1em 4em ;
+		-moz-order: 2;
+		-webkit-order: 2;
+		-ms-order: 2;
+		order: 2;
+		max-width: 48em;
+		width: 60%;
+		float: left;
+	}
+
+	/* Article Pagination */
+	.pagination {
+	  margin-bottom: 1.5rem;
+	}
+
+	.pagination-item {
+	  position: relative;
+	  width: 1.75rem;
+	  height: 1.75rem;
+	  border-radius: 50%;
+	  background: #efeeed;
+	  color: #261e66;
+	  border-bottom: 0;
+	}
+
+	.pagination-item:hover, .pagination-item:focus {
+	  background: #261e66;
+	  color: #71efac;
+	}
+
+	.pagination-item:active {
+	  background: #4509be;
+	}
+
+	.pagination-item.left {
+	  float: left;
+	}
+
+	.pagination-item.right {
+	  float: right;
+	}
+
+	.pagination-item svg {
+	  position: relative;
+	  top: 50%;
+	  display: block;
+	  margin: -6px auto 0;
+	  width: 24px;
+	  height: 12px;
+	}
+
+	.pagination-item path {
+	  fill: currentColor;
+	}
+
+	.pagination-item.is-inactive {
+	  color: #e4e3e6;
+	  border: 2px solid currentColor;
+	  background: transparent;
+	}
+
+	@media all and (min-width: 75em) {
+	  .pagination-item {
+	    position: fixed;
+	    top: 50%;
+	    margin-top: -.875rem;
+	  }
+	  .pagination-item.left {
+	    float: none;
+	    left: 2.25rem;
+	  }
+	  .pagination-item.right {
+	    float: none;
+	    right: 2.25rem;
+	  }
+	}
+
+
+
+	@media screen and (max-width: 736px) {
+
+		header.major {
+			margin: 0 0 2em 0;
 		}
 
-			header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
-				content: '';
-				display: block;
-				height: 1px;
-			}
-
-		header.major p {
-			color: #fff;
-			top: 0;
-		}
-
-		@media screen and (max-width: 736px) {
-
-			header.major {
-				margin: 0 0 2em 0;
-			}
-
-		}
+	}
 
 	@media screen and (max-width: 980px) {
 
@@ -2699,7 +2803,30 @@
 					text-align: center;
 					width: 100%;
 				}
+				
 
+				header.article-header {
+					padding: 0.5em 0em 0em 0em ;
+				}
+
+				header.article-header h1 {
+					margin: 0;
+					padding: 0.5em 0em 0em 0em ;
+				}
+
+				article figure {
+					display: inline-block;
+					position: relative;
+					width: 100%;
+					float: none;
+				}
+
+				article .text {
+					padding: 0.2em 1em 0.1em 1em ;
+					max-width: none;
+					width: 100%;
+					float: none;
+				}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2715,7 +2842,9 @@
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}
-
+	.blog .wrapper {
+		padding: 2em 0 4em 0 ;
+	}
 		.wrapper > .inner {
 			width: 60em;
 			margin: 0 auto;
@@ -3219,15 +3348,14 @@
 
 		@media screen and (max-width: 980px) {
 
-			.wrapper {
+			.wrapper, .blog .wrapper {
 				padding: 4em 3em 2em 3em ;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
 
-			.wrapper {
+			.wrapper, .blog .wrapper {
 				padding: 3em 2em 1em 2em ;
 			}
 
@@ -3552,7 +3680,7 @@
 			}
 
 		#banner h2 img {
-			max-width:70%;
+			max-width:40%;
 		}
 
 		#banner p {
@@ -3745,7 +3873,7 @@
 		}
 
 /* Main */
-
+/*	#main { background-color: #375001; } */
 	#main > header {
 		padding: 12em 0 10em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
@@ -4246,10 +4374,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;

@@ -6,7 +6,7 @@
   <?php snippet('nav') ?>
 
   <!-- Main -->
-  <article id="main">
+  <article id="main" class="blog">
     <header>
       <?= $page->intro()->kirbytext() ?>
     </header>
@@ -25,7 +25,8 @@
 
 
 
-    <section class="wrap">
+    <section class="wrapper style5">
+    <div class="inner">
       <?php if($articles->count()): ?>
         <?php foreach($articles as $article): ?>
 
@@ -43,19 +44,20 @@
 
             <div class="text">
               <p>
-                <?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
+                <? // = $article->text()->kirbytext()->excerpt(50, 'words') ?>
+                <?= $article->text()->kirbytext() ?>
                 <a href="<?= $article->url() ?>" class="article-more">read more</a>
               </p>
             </div>
 
           </article>
 
-          <hr />
-
         <?php endforeach ?>
       <?php else: ?>
         <p>This blog does not contain any articles yet.</p>
       <?php endif ?>
+    </div>
+    <div style="clear: both;"></div>
     </section>
 
     <?php snippet('pagination') ?>

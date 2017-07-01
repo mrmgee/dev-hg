@@ -20,6 +20,6 @@ fields:
     type: image
     width: 1/2
 
-  text:
-    label: Text
-    type:  textarea
+  intro:
+    label: Intro
+    type:  markdown

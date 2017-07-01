@@ -2,7 +2,7 @@
 
 <style type="text/css">
   body.landing #page-wrapper {
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(<?= $page->pagewrapper()->toFile()->url() ?>);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(<?= $page->pagewrapper()->toFile()->url() ?>);
   }
 </style>
     <!-- Page Wrapper -->
@@ -11,8 +11,6 @@
         <!-- Banner -->
           <section id="banner">
             <div class="inner">
-              <!-- <h2 style="background: url(images/logo_wh640.png) no-repeat fixed center; max-width:100%"> -->
-              <!-- <h2>Spectral</h2> -->
               <h2><img src="assets/images/logo_wh1280.png"></h2>
               <p><?= $page->intro()->kirbytext() ?></p>
               <ul class="actions">
@@ -74,38 +72,44 @@
           <h2>What our Patients Say</h2>
           <div class="reel">
             <article>
-              <p><span class="icon fa-comment fa teQu"></span> Car1 An absolutely amazing place to shop. All their concentrates are on point, especially the olio! And the staff is welcoming and had answers to all my questions. They even laminated my card for me which was very nice!! Can't wait to come back in soon</p>
+              <p><span class="icon fa-comment fa teQu"></span>
+              <?= $page->test1txt()->kirbytext() ?>
+              </p>
             </article>
 
             <article>
-              <p><span class="icon fa-comment fa teQu"></span> Car2 If you're a quality kind of person this is your stop. The dankest live resin and nug run I've smelled in a while. I'll for sure be back in the future. The bud tenders are very knowledgeable and even friendlier than they are knowledgeable</p>
+              <p><span class="icon fa-comment fa teQu"></span>
+              <?= $page->test2txt()->kirbytext() ?>
+              </p>
             </article>
 
             <article>
-              <p><span class="icon fa-comment teQu"></span>Car3 I had learned about this dispensary through instagram and immediately some of the genetics grabbed my attention. I stopped in and the bud quality was killer! Each strain looked and smelled fantastic! I recommend stopping by to check out their great selection of bud as well as concentrates!</p>
+              <p><span class="icon fa-comment teQu"></span>
+              <?= $page->test3txt()->kirbytext() ?>
+              </p>
             </article>
 
             <article>
-              <p><span class="icon fa-comment teQu"></span>Car4 What I love most is they have great strains not your basic menu like every other spot. Hope they keep bringing in new Funk as I will definitely continue to stop by!! Cheers guys, you are doing it right!!!</p>
+              <p><span class="icon fa-comment teQu"></span>
+              <?= $page->test4txt()->kirbytext() ?>
+              </p>
             </article>
 
             <article>
-              <p><span class="icon fa-comment teQu"></span>Car5 Phenomenal product, excellent service, convenient location, and a beatiful shop. I'll be a regular untill further notice</p>
+              <p><span class="icon fa-comment teQu"></span>
+              <?= $page->test5txt()->kirbytext() ?>
+              </p>
             </article>
 
           </div>
         </section>
 
-        <!-- CTA -->
-          <section id="cta" class="wrapper style4" style="background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/images/footer.jpg); background-position: 20% 40%; background-size: 100%; ">
+        <!-- Founders -->
+          <section id="founders" class="wrapper style1 special" style="background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/images/footer.jpg); background-position: 20% 40%; background-size: 100%; ">
             <div class="inner">
-              <header>
-                <h2>Become a Member</h2>
-                <p>We'll access and print your new medical card! Join as a member and we'll honor all EPC plant counts.</p>
+              <header class="major">
+              <?= $page->founderstxt()->kirbytext() ?>
               </header>
-              <ul class="actions vertical">
-                <li><a href="#" class="button fit special">Join Now</a></li>
-              </ul>
             </div>
           </section>
 

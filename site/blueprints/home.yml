@@ -51,6 +51,26 @@ fields:
     label: Spotlight 3 text
     type:  markdown
 
-  text:
-    label: Text
-    type:  textarea
+  test1txt:
+    label: Testimonial 1 text
+    type:  markdown
+
+  test2txt:
+    label: Testimonial 2 text
+    type:  markdown
+
+  test3txt:
+    label: Testimonial 3 text
+    type:  markdown
+
+  test4txt:
+    label: Testimonial 4 text
+    type:  markdown
+
+  test5txt:
+    label: Testimonial 5 text
+    type:  markdown
+
+  founderstxt:
+    label: Founders text
+    type:  markdown
