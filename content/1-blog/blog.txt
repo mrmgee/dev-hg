@@ -1,0 +1,20 @@
+Title: Specials
+
+----
+
+Pagewrapper: banner2.jpg
+
+----
+
+Intro: 
+
+## Higher Grade Specials
+Featured Cannabis Promotions and Events
+
+----
+
+Abouttxt: 
+
+----
+
+Perpage: 2
