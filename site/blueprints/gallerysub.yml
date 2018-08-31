@@ -20,6 +20,12 @@ fields:
     type: image
     width: 1/2
 
+<<<<<<< HEAD
   intro:
     label: Intro
     type:  markdown
+=======
+  text:
+    label: Text
+    type:  textarea
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487

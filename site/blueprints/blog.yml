@@ -5,7 +5,11 @@ files: false
 pages:
   template: article
   sort: flip
+<<<<<<< HEAD
   num: datestart
+=======
+  num: date
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 
 options: 
   template: false
@@ -28,12 +32,17 @@ fields:
     default: 5
     width: 1/4
 
+<<<<<<< HEAD
   Intro:
     label: Intro text
     type:  textarea
 
   Abouttxt:
     label: About text
+=======
+  text:
+    label: Text
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
     type: textarea
 
   info:

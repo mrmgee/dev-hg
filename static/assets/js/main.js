@@ -36,15 +36,21 @@ var slideSelector = 'img',
 
 var pagepath = document.location.pathname;
 
+<<<<<<< HEAD
 // if (pagepath == '/kirby/gallery' || pagepath =='/kirby/gallerysub') {
 //	$('#gallery').photoSwipe(slideSelector, options, events);
 // }
 
+=======
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 if($('#gallery').length!==0){
 	$('#gallery').photoSwipe(slideSelector, options, events);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 	$(function() {
 
 		var	$window = $(window),

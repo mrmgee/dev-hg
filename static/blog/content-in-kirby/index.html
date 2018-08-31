@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Higher Grade - Spectral</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link href="assets/css/age-verification.css" rel="stylesheet">
+  </head>
+  <body class="landing">
+  <main class="main" role="main">
+    
+    <article class="article single wrap">
+
+      <header class="article-header">
+        <h1>Content in Kirby</h1>
+        <div class="intro text">
+          August 4th, 2016        </div>
+        <hr />
+      </header>
+      
+        <figure>
+    <img src="./../../content/2-blog/20160804-content-in-kirby/content.png" alt="" />
+  </figure>
+      
+      <div class="text">
+        <figure><img src="./../../content/2-blog/20160804-content-in-kirby/fibs_chiuauha.jpg" alt=""></figure>
+<h2>How content is stored</h2>
+<p>In Kirby, content is stored within the <code>/content</code> directory, where every page is a folder. Pages can be nested, so every of those pages/folders may also contain subfolders.</p>
+<p>Take this blog demo for example; all posts are just subfolders of the <strong>blog</strong> folder. This comes with great flexibility, because it is very easy to mix different kinds of content. In this demo, the blog only has one template for articles and a corresponding blueprint file (<code>/site/blueprints/article.yml</code>) to provide the correct fields in the Panel when editing the content. But if you need different fields for video posts, gallery posts etc. you can extend the blog’s functionality by adding corresponding blueprints and templates to define those post types. You needs tags? Easy as pie! Just add a <em>tags</em> field to your <code>article.yml</code> blueprint.</p>
+<figure><img src="./../../content/2-blog/20160804-content-in-kirby/fibs_chiuauha.jpg" alt=""></figure>
+<blockquote>
+<p>But if you don’t use the Panel, you also don’t need to setup blueprints at all. That’s Kirby’s advantage: The content files can be edited directly if you want to.</p>
+</blockquote>
+<h2>Kirbytext</h2>
+<p>Kirby’s content is written Kirbytext by default. It is basically an extended version of <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> or <a href="https://michelf.ca/projects/php-markdown/extra/">Markdown Extra</a>. In addition to Markdown’s simple syntax, Kirbytext also includes a bunch of useful tags. For example, to link to an email address, you can use Kirby’s <code>email</code> tag:</p>
+<!-- For the following example, left and right parenthesis have been replaced by their HTML entities, so the tag will not get parsed in this article. -->
+<pre><code><a href="mailto:&#104;&#x65;&#108;&#x6c;&#111;&#64;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#111;&#x6d;">&#104;&#101;&#108;&#x6c;&#111;&#x40;&#101;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#x6d;</a></code></pre>
+<p>It is not only handier than typing “<code>&lt;a href="mailto: …</code>”, but also encodes every character of the provided email address as an HTML entity to make the life of spambots a little harder. You can also define your own Kirbytags and even override the behavior of Kirby’s built-in tags. Your custom tags will be stored within <code>/site/tags</code>.</p>
+<hr />
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="https://getkirby.com/docs/getting-started">Getting Started</a> (Kirby Documentation)</li>
+<li><a href="https://getkirby.com/docs/content/text">Formatting text</a> (Kirby Documentation)</li>
+<li><a href="https://getkirby.com/docs/cookbook/blog">Creating a Kirby-powered blog</a> (Kirby Cookbook)</li>
+<li><a href="https://getkirby.com/docs/developer-guide/kirbytext/tags">How to create custom Kirbytags</a> (Kirby Documentation)</li>
+</ul>      </div>
+      
+    </article>
+    
+        
+  </main>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <div class="inner">
+              <h2 class="major">Get in touch</h2>
+              <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+              <form method="post" action="#">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+                <ul class="actions">
+                  <li><input type="submit" value="Send Message" /></li>
+                </ul>
+              </form>
+              <ul class="contact">
+                <li class="fa-home">
+                  3111 W.38th Ave.<br />
+                  Denver, 80211<br />
+                </li>
+                <li class="fa-clock-o">Mon-Sat 10:00am -  7:00pm<br />
+                  Sun 12:00pm -  5:00pm
+                </li>
+                <li class="fa-phone">(303) 955-0186</li>
+              </ul>
+
+
+            <ul class="icons">
+              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+              <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+              <li>&copy; Higher Grade</li>
+            </ul>
+          </footer>
+
+      </div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
+      <script src="assets/js/age-verification.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/jquery.onvisible.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
+
+  </body>
+</html>

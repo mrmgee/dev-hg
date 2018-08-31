@@ -1688,6 +1688,7 @@
 		margin: 0 0 3.5em 0;
 	}
 
+<<<<<<< HEAD
 	header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 		border-bottom: solid 2px #fff;
 		display: inline-block;
@@ -1828,6 +1829,34 @@
 
 	}
 
+=======
+		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
+			border-bottom: solid 2px #fff;
+			display: inline-block;
+			padding-bottom: 1em;
+			position: relative;
+		}
+
+			header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
+				content: '';
+				display: block;
+				height: 1px;
+			}
+
+		header.major p {
+			color: #fff;
+			top: 0;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			header.major {
+				margin: 0 0 2em 0;
+			}
+
+		}
+
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 	@media screen and (max-width: 980px) {
 
 		header br {
@@ -2813,6 +2842,7 @@
 					text-align: center;
 					width: 100%;
 				}
+<<<<<<< HEAD
 				
 
 				header.article-header {
@@ -2837,6 +2867,9 @@
 					width: 100%;
 					float: none;
 				}
+=======
+
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2852,9 +2885,13 @@
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}
+<<<<<<< HEAD
 	.blog .wrapper {
 		padding: 2em 0 4em 0 ;
 	}
+=======
+
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		.wrapper > .inner {
 			width: 60em;
 			margin: 0 auto;
@@ -3045,7 +3082,11 @@
 		}
 
 		.wrapper.style3 {
+<<<<<<< HEAD
 			background-color: rgba(55,80,1,0.5);
+=======
+			background-color: #505393;
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 			color: #d3d4e4;
 		}
 
@@ -3358,14 +3399,25 @@
 
 		@media screen and (max-width: 980px) {
 
+<<<<<<< HEAD
 			.wrapper, .blog .wrapper {
 				padding: 4em 3em 2em 3em ;
 			}
+=======
+			.wrapper {
+				padding: 4em 3em 2em 3em ;
+			}
+
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		}
 
 		@media screen and (max-width: 736px) {
 
+<<<<<<< HEAD
 			.wrapper, .blog .wrapper {
+=======
+			.wrapper {
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 				padding: 3em 2em 1em 2em ;
 			}
 
@@ -3690,7 +3742,11 @@
 			}
 
 		#banner h2 img {
+<<<<<<< HEAD
 			max-width:40%;
+=======
+			max-width:70%;
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		}
 
 		#banner p {
@@ -3883,7 +3939,11 @@
 		}
 
 /* Main */
+<<<<<<< HEAD
 /*	#main { background-color: #375001; } */
+=======
+
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 	#main > header {
 		padding: 12em 0 10em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
@@ -4038,7 +4098,11 @@
 			width: 100%;
 		}
 
+<<<<<<< HEAD
 		#footer .inner form, #footer .inner #gmap {
+=======
+		#footer .inner form {
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 			margin: 0 3em 0 0;
 			width: calc(50% - 1.5em);
 		}
@@ -4130,7 +4194,11 @@
 				width: 100%;
 			}
 
+<<<<<<< HEAD
 				#footer .inner form, #footer .inner #gmap {
+=======
+				#footer .inner form {
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
@@ -4153,6 +4221,7 @@
 			padding-top: 2.5em;
 		}
 
+<<<<<<< HEAD
 		#footer .inner {
 			padding: 2em 2em 0.1em 2em ;
 		}
@@ -4166,6 +4235,19 @@
 		#footer .inner .contact {
 			margin: 0 0 3em 0;
 		}
+=======
+			#footer .inner {
+				padding: 2em 2em 0.1em 2em ;
+			}
+
+				#footer .inner form {
+					margin: 0 0 3em 0;
+				}
+
+				#footer .inner .contact {
+					margin: 0 0 3em 0;
+				}
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 
 	}
 
@@ -4178,9 +4260,16 @@
 			padding-left: 0;
 		}
 
+<<<<<<< HEAD
 		#footer .inner .copyright li:first-child {
 			margin-top: 0;
 		}
+=======
+			#footer .inner .copyright li:first-child {
+				margin-top: 0;
+			}
+
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 	}
 
 	@media screen and (max-width: 360px) {
@@ -4188,6 +4277,10 @@
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 	}
 
 /* Carousel */
@@ -4384,10 +4477,17 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
+<<<<<<< HEAD
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+=======
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/images/banner.jpg");
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;

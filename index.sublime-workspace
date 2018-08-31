@@ -3,6 +3,21 @@
 	{
 		"selected_items":
 		[
+<<<<<<< HEAD
+=======
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"di",
+				"display"
+			]
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		]
 	},
 	"buffers":
@@ -24,7 +39,11 @@
 	},
 	"console":
 	{
+<<<<<<< HEAD
 		"height": 0.0,
+=======
+		"height": 126.0,
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		"history":
 		[
 		]
@@ -40,6 +59,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/Applications/MAMP/htdocs/bpd/kirby/site/controllers/news.php",
 		"/Applications/MAMP/htdocs/bpd/kirby/content/5-news/3-news03/article.txt",
 		"/Applications/MAMP/htdocs/bpd/kirby/site/controllers/blog.php",
@@ -55,6 +75,46 @@
 		"/Applications/MAMP/htdocs/bpd/kirby/site/blueprints/news.yml",
 		"/Applications/MAMP/htdocs/bpd/kirby/site/blueprints/specials.yml",
 		"/Applications/MAMP/htdocs/bpd/kirby/index.sublime-workspace"
+=======
+		"/Applications/MAMP/htdocs/bpd/kirby/site/config/config.bpd.kirby.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/config/config.localhost.bpd.kirby.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/config/config.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/assets/js/main.js",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/blueprints/galleryitem.yml",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/templates/galleryitem.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/gallerysub/gallerysub.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/gallerysub/1-galleryitem-Indica/galleryitem.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/gallerysub/2-galleryitem-Sativa/og_sin.jpg.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/gallerysub/1-galleryitem-Indica/303_Kush.jpg.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/gallerysub/2-galleryitem-Sativa/galleryitem.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/gallerysub/2-galleryitem-Sativa/2-galleryitem-Sativa.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/showcase.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/nav.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/secgallery/imageloop.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/templates/gallery.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/sections/imageloop.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/section/imageloop.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/section/imagebanner.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/builder/imagebanner.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/templates/projects.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/1-projects/projects.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/content/1-projects/1-project-a/project.txt",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/templates/article.php",
+		"/Applications/MAMP/htdocs/bpd/kirby/site/snippets/header.php",
+		"/Applications/MAMP/htdocs/bpd/spectral/elements.html",
+		"/Applications/MAMP/htdocs/bpd/agecheck/index.html",
+		"/Applications/MAMP/htdocs/bpd/munter01/index.html",
+		"/Applications/MAMP/htdocs/bpd/studio01/assets/js/age-verification.js",
+		"/Applications/MAMP/htdocs/bpd/studio01/index.php",
+		"/Applications/MAMP/htdocs/grav1/user/themes/halcyon/templates/partials/header.html.twig",
+		"/Applications/MAMP/htdocs/grav1/user/themes/halcyon/css/styles.css",
+		"/Applications/MAMP/htdocs/grav1/user/config/site.yaml",
+		"/Applications/MAMP/htdocs/kirby-test/site/templates/home.php",
+		"/Applications/MAMP/htdocs/kirby-test/site/config/config.php",
+		"/Applications/MAMP/htdocs/kirby-test/kirby/kirby.php",
+		"/Users/michaelgee/Documents/GitHub/kaldi-hugo-cms-template/src/cms/config.yml",
+		"/Users/michaelgee/Documents/GitHub/silex1/README.md"
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 	],
 	"find":
 	{
@@ -62,9 +122,17 @@
 	},
 	"find_in_files":
 	{
+<<<<<<< HEAD
 		"height": 101.0,
 		"where_history":
 		[
+=======
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/grav1,/Applications/MAMP/htdocs/bpd/kirby",
+			"/Applications/MAMP/htdocs/grav1"
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		]
 	},
 	"find_state":
@@ -72,6 +140,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
+=======
+			"#main",
+			"banner.jpg",
+			"$header",
+			"coverimage",
+			"modular.yaml",
+			"pageLinkName",
+			"Twig_Loader_Filesystem",
+			"hero-bg.jpg",
+			"class=\"hero\"",
+			"An exclusive"
+>>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 		],
 		"highlight": true,
 		"in_selection": false,
