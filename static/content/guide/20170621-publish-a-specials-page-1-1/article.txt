@@ -1,0 +1,13 @@
+Title: Publish a Specials page 1.1
+
+----
+
+Coverimage: guide01-11.jpg
+
+----
+
+Date: 2017-06-21
+
+----
+
+Text: To publish the page to the website, click “Dashboard > Specials” at the top of the page to navigate back to the main Specials landing page listing the articles within.

@@ -7,8 +7,8 @@ email: admin@test.com
 language: en
 role: admin
 history:
-  - gallerysub/galleryitem-Concentrate
-  - blog
-  - blog/july-deals
-  - home
-  - gallerysub/galleryitem-Flowers
+  - news/eventtest-03
+  - news/eventtest-02
+  - news/eventtest-01
+  - news/nug-run-sale
+  - news/news03

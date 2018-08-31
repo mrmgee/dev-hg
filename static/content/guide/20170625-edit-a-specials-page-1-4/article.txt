@@ -1,0 +1,13 @@
+Title: Edit a Specials page 1.4
+
+----
+
+Coverimage: guide01-06.jpg
+
+----
+
+Date: 2017-06-25
+
+----
+
+Text: A window will open to browse your files on you computer. Select the image to upload and click “Open”.

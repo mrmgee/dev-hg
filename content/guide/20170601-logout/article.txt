@@ -1,0 +1,13 @@
+Title: Logout
+
+----
+
+Coverimage: guide01-16.jpg
+
+----
+
+Date: 2017-06-01
+
+----
+
+Text: You may exit by clicking “Log out” from the dropdown menu at the top left corner.

@@ -36,9 +36,14 @@ var slideSelector = 'img',
 
 var pagepath = document.location.pathname;
 
+// if (pagepath == '/kirby/gallery' || pagepath =='/kirby/gallerysub') {
+//	$('#gallery').photoSwipe(slideSelector, options, events);
+// }
+
 if($('#gallery').length!==0){
 	$('#gallery').photoSwipe(slideSelector, options, events);
 }
+
 
 	$(function() {
 

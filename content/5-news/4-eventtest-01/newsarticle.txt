@@ -1,0 +1,17 @@
+Title: EventTest 01
+
+----
+
+Coverimage: brad-kitt.jpg
+
+----
+
+Datestart: 2018-06-27
+
+----
+
+Dateend: 2018-06-27
+
+----
+
+Text: 06-27 This is the first test event descrpition here

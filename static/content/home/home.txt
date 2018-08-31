@@ -10,15 +10,15 @@ Intro: Serving fine medical only cannabis products to 18+ patients
 
 ----
 
-Buttontxt: Daily Menu
+Buttontxt: Daily Specials
 
 ----
 
 Abouttxt: 
 
-## NEW At Higher Grade, we pride ourselves on providing premium quality cannabis with exceptional service
+## At Higher Grade, we pride ourselves on providing premium quality cannabis with exceptional service
 
-Higher Grade was founded to give Denver residents a break from the hassle of medical and recreational combination stores. We take our time to make all patients feel welcome and appreciated. Pair that with the Olio concentrates and the best cannabis around and you have a dispensary that is worth a visit.
+Higher Grade was founded to give Denver residents a break from the hassle of medical and recreational combination stores. We take our time to make all patients feel welcome and appreciated. Pair that with the Olio and Green Dot concentrates and the best cannabis around and you have a dispensary that is worth a visit.
 
 ----
 
@@ -29,7 +29,7 @@ Spot1image: spot1.jpg
 Spot1txt: 
 
 ## Strain Menu
-Featuring gourmet Indica, Sativa, and Hybrid cannabis, verified by independent testing.
+Our strain catalog features a wide selection of Sativas, Hybrids, and Indicas that are unique to Colorado and also different from other Colorado dispensaries.
 
 ----
 
@@ -40,7 +40,7 @@ Spot2image: spot2.jpg
 Spot2txt: 
 
 ## Extracts
-Featuring Olio concentrates and the highest-quality cannabis concentrates on the market. Lab tested for potency and purity.
+We feature extracts from some of the most distinguished extractors in Colorado. All made with our quality cannabis.
 
 ----
 
@@ -51,7 +51,11 @@ Spot3image: spot3.jpg
 Spot3txt: 
 
 ## Edibles
-Offering a distinctive collection of cannabis infused products including a full line of edibles and topicals of unsurpassed quality.
+We offer a distinctive collection of cannabis infused products including a full line of edibles and topicals.
+
+----
+
+Test1txt: An absolutely amazing place to shop. All their concentrates are on point, especially the olio! And the staff is welcoming and had answers to all my questions. They even laminated my card for me which was very nice!! Can't wait to come back in soon
 
 ----
 
@@ -67,3 +71,27 @@ Text:
 - (link: http://getkirby.com/support text: Get in contact) if you need support.
 
 **Have fun with Kirby!**
+
+----
+
+Test2txt: If you're a quality kind of person this is your stop. The dankest live resin and nug run I've smelled in a while. I'll for sure be back in the future. The bud tenders are very knowledgeable and even friendlier than they are knowledgeable
+
+----
+
+Test3txt: I had learned about this dispensary through instagram and immediately some of the genetics grabbed my attention. I stopped in and the bud quality was killer! Each strain looked and smelled fantastic! I recommend stopping by to check out their great selection!
+
+----
+
+Test4txt: What I love most is they have great strains not your basic menu like every other spot. Hope they keep bringing in new Funk as I will definitely continue to stop by!! Cheers guys, you are doing it right!!!
+
+----
+
+Test5txt: Phenomenal product, excellent service, convenient location, and a beatiful shop. I'll be a regular untill further notice
+
+----
+
+Founderstxt: 
+
+## Founders
+Our founders started Higher Grade, in early 2017, after seeing and hearing from countless medical patients that Denver’s medical market was dying. With the rise and dominance of recreational, many facilities simply cannot devote the time and attention to medical patients that was required. 
+So, in 2017, Michael Lebowitz and Conor Scanlon, took their decades of growing expertise and turned it into Higher Grade +18 Medical Dispensary.

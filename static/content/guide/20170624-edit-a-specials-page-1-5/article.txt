@@ -1,0 +1,13 @@
+Title: Edit a Specials page 1.5
+
+----
+
+Coverimage: guide01-07.jpg
+
+----
+
+Date: 2017-06-24
+
+----
+
+Text: The uploaded image will now be listed under the Files list and may be added to the page.

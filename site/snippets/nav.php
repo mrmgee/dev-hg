@@ -11,6 +11,7 @@
                       <li><a href="<?php echo kirby()->urls()->index() . '/dailymenu'?>">Menu</a></li>
                       <li><a href="<?php echo kirby()->urls()->index() . '/blog'?>">Specials</a></li>
                       <li><a href="<?php echo kirby()->urls()->index() . '/gallerysub'?>">Gallery</a></li>
+                      <li><a href="<?php echo kirby()->urls()->index() . '/news'?>">News</a></li>
                       <li><a href="<?php echo kirby()->urls()->index() . '/members'?>">Members</a></li>
                     </ul>
                   </div>

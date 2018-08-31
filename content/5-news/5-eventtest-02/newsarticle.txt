@@ -1,0 +1,17 @@
+Title: EventTest 02
+
+----
+
+Coverimage: 06-26-17_the_deals.jpg
+
+----
+
+Datestart: 2018-06-30
+
+----
+
+Dateend: 2018-07-04
+
+----
+
+Text: Desc 06-30 to 07-04 description here for the news event

@@ -1,0 +1,13 @@
+Title: Edit a Specials page 1.6
+
+----
+
+Coverimage: guide01-08.jpg
+
+----
+
+Date: 2017-06-23
+
+----
+
+Text: To display the image on the page, click the image icon to the right of the “Cover Image” field. Select the file uploaded in the previous step.

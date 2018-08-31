@@ -1,0 +1,16 @@
+Title: Edit a Specials page 1.7
+
+----
+
+Coverimage: guide01-10.jpg
+
+----
+
+Date: 2017-06-22
+
+----
+
+Text: 
+
+Save the changes by clicking the “Save” button at the bottom of the screen.
+NOTE: The page has been created but will not be published to the website until it is made visible.

@@ -1,0 +1,20 @@
+Title: Guide
+
+----
+
+Pagewrapper: banner2.jpg
+
+----
+
+Intro: 
+
+## Higher Grade Website Guide
+Instructions to update content
+
+----
+
+Abouttxt: 
+
+----
+
+Perpage: 5

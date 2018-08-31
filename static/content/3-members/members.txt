@@ -1,0 +1,55 @@
+Title: Members
+
+----
+
+Intro: 
+
+##Members
+Receive Special Pricing
+
+----
+
+Text: 
+
+Now some new text added to the **About** page. How is versioning handled?
+
+The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+
+----
+
+Pagewrapper: banner_members.jpg
+
+----
+
+Abouttxt: 
+
+We believe that growing patient's plants is a privilege, so all members receive member pricing (20% off). Members also receive the 4 following deals every month:
+* 10¢ Gram of Select Concentrate OR 10¢ Eighth of Any strain
+* BOGO (Buy One Get One Free) $.10 Gram of Select Concentrate OR BOGO $.10 Eighth
+* 50% Off 1 edible
+* $.10 1 gram Joint
+
+----
+
+Builder: 
+
+----
+
+Contenttxt: 
+
+## MMJ Card 
+We know accessing your MMJ card online can be a hassle, so we offer to access and print out your new medical card online free of charge. We will also laminate your new card to keep it new. In addition, we will also fill out and mail your replacement card form.
+
+----
+
+Spot1image: prerolled_red-blue.jpg
+
+----
+
+Spot1txt: 
+
+We believe that growing patient's plants is a privilege, so all members receive member pricing (20% off). Members also receive the 4 following deals every month:
+* 10¢ Gram of Select Concentrate OR 10¢ Eighth of Any strain
+* BOGO (Buy One Get One Free) 10¢ Gram of Select Concentrate OR BOGO 10¢ Eighth
+* 50% Off 1 edible
+* 10¢ 1 gram Joint

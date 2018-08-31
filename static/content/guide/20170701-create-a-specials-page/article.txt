@@ -1,0 +1,13 @@
+Title: Create a Specials page 1.1
+
+----
+
+Coverimage: guide01-00.jpg
+
+----
+
+Date: 2017-07-01
+
+----
+
+Text: On the Dashboard click “Specials” under “Pages” to go to edit.

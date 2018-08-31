@@ -1,0 +1,13 @@
+Title: Publish a Specials page 1.2
+
+----
+
+Coverimage: guide01-12.jpg
+
+----
+
+Date: 2017-06-20
+
+----
+
+Text: On the Specials landing page, click “Edit” to the right of the Pages list to make the new page visible and published to the website.

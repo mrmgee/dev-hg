@@ -1,0 +1,13 @@
+Title: Edit a Specials page 1.1
+
+----
+
+Coverimage: guide01-03.jpg
+
+----
+
+Date: 2017-06-28
+
+----
+
+Text: A new, unpublished, page has been created with the title entered in the previous step. Now enter the date for the article by clicking the calendar icon at the right of the date field.

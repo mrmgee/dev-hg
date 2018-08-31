@@ -1,0 +1,13 @@
+Title: Create a Specials page 1.3
+
+----
+
+Coverimage: guide01-02.jpg
+
+----
+
+Date: 2017-06-29
+
+----
+
+Text: Enter the title under “Add a new page” and click the “Add” button in the lower right.

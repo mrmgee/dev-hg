@@ -1,0 +1,13 @@
+Title: Publish a Specials page 1.3
+
+----
+
+Coverimage: guide01-13.gif
+
+----
+
+Date: 2017-06-19
+
+----
+
+Text: Finally, publish the newly created page by dragging it from “Invisible pages” (unpublished) to “Visible pages” (published).

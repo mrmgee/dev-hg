@@ -1,0 +1,34 @@
+title: Higher Grade - News
+
+pages: false
+
+files: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
+    tags:
+      label: tags
+      type: tags
+
+fields:
+  title:
+    label: Title
+    type:  title
+
+  pagewrapper:
+    label: Page wrapper Image
+    type: image
+    width: 1/2
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  abouttxt:
+    label: About text
+    type:  markdown
+
+  contenttxt:
+    label: Content text
+    type:  markdown

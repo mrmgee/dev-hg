@@ -14,7 +14,7 @@
               <h2><img src="assets/images/logo_wh1280.png"></h2>
               <p><?= $page->intro()->kirbytext() ?></p>
               <ul class="actions">
-                <li><a href="dailymenu" class="button special"><?= $page->buttontxt()->kirbytext() ?></a></li>
+                <li><a href="<?php echo kirby()->urls()->index() . '/blog'?>" class="button special"><?= $page->buttontxt()->kirbytext() ?></a></li>
               </ul>
             </div>
             <a href="#one" class="more scrolly">Learn More</a>
@@ -67,6 +67,24 @@
           </section>
 
 
+      <!-- News -->
+        <section id="news" class="wrapper special style3">
+          <div class="inner">
+            <header class="major"><h2>News at Higher Grade</h2></header>
+
+        <?php foreach(page('news')->children()->sortBy('date', 'desc')->limit(4) as $post): ?>
+          <section class="spotlight">
+            <div class="image"><a href="<?= $post->url() ?>"><img src="<?= $post->coverimage()->toFile()->url() ?>" alt="" /></a></div>
+              <h2 class="content">
+                <a href="<?= $post->url() ?>"><?= html($post->title()) ?></a>
+              </h2>
+          </section>
+        <?php endforeach ?>
+            <a href="news" class="button special">View all</a>
+          </div>
+        </section>
+
+
       <!-- Carousel -->
         <section class="carousel">
           <h2>What our Patients Say</h2>
@@ -103,6 +121,7 @@
 
           </div>
         </section>
+
 
         <!-- Founders -->
           <section id="founders" class="wrapper style1 special" style="background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/images/footer.jpg); background-position: 20% 40%; background-size: 100%; ">

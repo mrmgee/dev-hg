@@ -28,16 +28,26 @@
     <section class="wrapper style5">
     <div class="inner">
       <?php if($articles->count()): ?>
-        <?php foreach($articles as $article): ?>
+
+        <?php // foreach($articles as $article): ?>
+        <?php foreach($articles->sortBy('datestart', 'desc') as $article):
+          if($article->dateend('Y-m-d') >= date('Y-m-d')): ?>
 
           <article class="article index">
-
             <header class="article-header">
               <h2 class="article-title">
                 <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
               </h2>
 
-              <p class="article-date"><?= $article->date('F jS, Y') ?></p>
+              <p class="article-date">
+                <?= $article->date('m-d-y','datestart');
+                if($article->date('m-d-y','dateend') !== $article->date('m-d-y','datestart')):
+                  echo " until ";
+                  echo $article->date('m-d-y','dateend');
+                else:
+                  echo " only";
+                endif ?>
+              </p>
             </header>
 
             <?php snippet('coverimage', $article) ?>
@@ -52,7 +62,8 @@
 
           </article>
 
-        <?php endforeach ?>
+        <?php endif;
+        endforeach ?>
       <?php else: ?>
         <p>This blog does not contain any articles yet.</p>
       <?php endif ?>

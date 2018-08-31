@@ -10,20 +10,32 @@ return [
     'panel.user.*' => false,
     'panel.page.*' => false,
 
-
 'panel.page.read' => function() {
-  return $this->target()->page()->template() == 'blog' || $this->target()->page()->template() == 'article';
+  if($this->target()->page()->template() === 'blog' ||  $this->target()->page()->template() === 'article') return true;
+  if($this->target()->page()->template() === 'news' ||  $this->target()->page()->template() === 'newsarticle') return true;
 },
+
+
 'panel.page.update' => function() {
-  return $this->target()->page()->template() == 'article';
+  if($this->target()->page()->template() === 'blog' ||  $this->target()->page()->template() === 'article') return true;
+  if($this->target()->page()->template() === 'news' ||  $this->target()->page()->template() === 'newsarticle') return true;
 },
 'panel.page.delete' => function() {
-  return $this->target()->page()->template() == 'article';
+  if($this->target()->page()->template() === 'article') return true;
+  if($this->target()->page()->template() === 'newsarticle') return true;
 },
 'panel.page.create' => function() {
-  return $this->target()->page()->template() == 'blog';
+  if($this->target()->page()->template() === 'blog' ||  $this->target()->page()->template() === 'article') return true;
+  if($this->target()->page()->template() === 'news' ||  $this->target()->page()->template() === 'newsarticle') return true;
+},
+'panel.page.visibility' => function() {
+  if($this->target()->page()->template() === 'article') return true;
+  if($this->target()->page()->template() === 'newsarticle') return true;
+},
+'panel.page.sort' => function() {
+  if($this->target()->page()->template() === 'article') return true;
+  if($this->target()->page()->template() === 'newsarticle') return true;
 }
-
-	]
+  ]
 ];
 ?>

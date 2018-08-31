@@ -10,7 +10,16 @@
             <header class="article-header">
               <h1><?= $page->title()->html() ?></h1>
               <div class="intro text">
-                <?= $page->date('F jS, Y') ?>
+
+
+                <?= $page->date('m-d-y','datestart');
+                if($page->date('m-d-y','dateend') !== $page->date('m-d-y','datestart')):
+                  echo " until ";
+                  echo $page->date('m-d-y','dateend');
+                else:
+                  echo " only";
+                endif ?>
+                
               </div>
             </header>
 
