@@ -1,0 +1,39 @@
+title: Calendar
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+
+  startdate:
+    icon: calendar
+    label: Start Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+
+  enddate:
+    icon: calendar
+    label: End Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+
+  allday:
+    label: All-Day event
+    type:  textarea
+
+  description:
+    label: Description
+    type:  textarea
+
+  url:
+    label: URL
+    type: text

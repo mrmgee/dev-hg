@@ -1,0 +1,21 @@
+Title: CalendarItem03
+
+----
+
+Startdate: 2018-09-19
+
+----
+
+Enddate: 2018-09-23
+
+----
+
+Description: CalendarItem03 multi day event spans Wed 9/19 to Sun 9/23
+
+----
+
+Url: 
+
+----
+
+Allday: true

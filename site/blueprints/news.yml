@@ -1,6 +1,13 @@
 title: News
 
-files: false
+files: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
+    tags:
+      label: tags
+      type: tags
 
 pages:
   template: newsarticle
@@ -27,6 +34,11 @@ fields:
     max: 20
     default: 5
     width: 1/4
+
+  pagewrapper:
+    label: Background image
+    type: image
+    width: 1/2
 
   Intro:
     label: Intro text

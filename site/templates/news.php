@@ -70,4 +70,4 @@
   </article><!-- END main -->
 </div><!-- END Page Wrapper -->
 
-<?php snippet('footer') ?>
+<?php snippet('foot-code') ?>

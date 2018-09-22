@@ -1,0 +1,5 @@
+Title: About me
+
+----
+
+Text: xxxx About me text goes here the goal is to put this on the home page as an include via a snippet

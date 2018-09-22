@@ -1,8 +1,6 @@
 <?php snippet('header') ?>
+
 <style type="text/css">
-  #main > header {
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(<?= $page->pagewrapper()->toFile()->url() ?>);
-  }
 @media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
 .wrapper {
   padding: 1em 0.4em 1em 0.4em;
@@ -82,4 +80,4 @@
             </section>
           </article>
 
-<?php snippet('footer') ?>
+<?php snippet('foot-code') ?>

@@ -17,7 +17,7 @@ fields:
     type:  title
 
   pagewrapper:
-    label: Page wrapper Image
+    label: Background image
     type: image
     width: 1/2
 

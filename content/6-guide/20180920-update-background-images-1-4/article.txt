@@ -1,0 +1,17 @@
+Title: Update Background images 1-4
+
+----
+
+Coverimage: bkgimg01-06.jpg
+
+----
+
+Datestart: 2018-09-17
+
+----
+
+Dateend: 2018-09-17
+
+----
+
+Text: Click the Save button.

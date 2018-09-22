@@ -9,6 +9,7 @@ password: >
 language: en
 role: editor
 history:
+  - gallerysub/concentrate
   - blog/test-blog-02
   - blog/test-blog-01
   - blog/the-return-of-the-skywalker

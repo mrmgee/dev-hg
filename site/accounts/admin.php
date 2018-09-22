@@ -7,16 +7,8 @@ email: admin@test.com
 language: en
 role: admin
 history:
-<<<<<<< HEAD
-  - news/eventtest-03
-  - news/eventtest-02
-  - news/eventtest-01
-  - news/nug-run-sale
-  - news/news03
-=======
-  - dailymenu
-  - gallerysub/galleryitem-Concentrate
-  - gallerysub/galleryitem-Sativa
-  - gallerysub/galleryitem-Indica
-  - gallerysub
->>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
+  - guide/update-background-images-1-4
+  - guide/update-background-images-1-3
+  - guide/update-background-images-1-2
+  - guide/update-background-images-1-1
+  - calendar/calevent03

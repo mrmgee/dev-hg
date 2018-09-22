@@ -1,0 +1,13 @@
+Title: Create a Gallery section 1.6
+
+----
+
+Coverimage: gallery01-07.jpg
+
+----
+
+Date: 2018-09-05
+
+----
+
+Text: Enter the text in the "Caption" field and click Save.

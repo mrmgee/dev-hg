@@ -8,7 +8,7 @@ fields:
     type:  text
 
   pagewrapper:
-    label: Page wrapper Image
+    label: Background image
     type: image
     width: 1/2
 
@@ -51,7 +51,6 @@ fields:
     label: Spotlight 3 text
     type:  markdown
 
-<<<<<<< HEAD
   test1txt:
     label: Testimonial 1 text
     type:  markdown
@@ -75,8 +74,3 @@ fields:
   founderstxt:
     label: Founders text
     type:  markdown
-=======
-  text:
-    label: Text
-    type:  textarea
->>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487

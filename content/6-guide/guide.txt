@@ -1,0 +1,20 @@
+Title: Guide
+
+----
+
+Pagewrapper:
+
+----
+
+Intro: 
+
+## Higher Grade Website Guide
+Instructions to update content
+
+----
+
+Abouttxt: about
+
+----
+
+Perpage: 5

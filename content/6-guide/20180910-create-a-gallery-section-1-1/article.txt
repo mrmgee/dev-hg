@@ -1,0 +1,13 @@
+Title: Create a Gallery section 1.1
+
+----
+
+Coverimage: gallery01-01.jpg
+
+----
+
+Date: 2018-09-10
+
+----
+
+Text: On the Dashboard click “GallerySub” under “Pages” to edit.

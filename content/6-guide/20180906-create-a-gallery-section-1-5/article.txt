@@ -1,0 +1,13 @@
+Title: Create a Gallery section 1.5
+
+----
+
+Coverimage: gallery01-06.jpg
+
+----
+
+Date: 2018-09-06
+
+----
+
+Text: To add the title/caption text, click the image name just uploaded - in this case "epen_cartridge".

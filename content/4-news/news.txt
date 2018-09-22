@@ -1,0 +1,20 @@
+Title: News
+
+----
+
+Pagewrapper: banner_members.jpg
+
+----
+
+Intro: 
+
+## News at Higher Grade
+Featured Cannabis Info and Events
+
+----
+
+Abouttxt: 
+
+----
+
+Perpage: 5

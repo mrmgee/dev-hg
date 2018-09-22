@@ -1,0 +1,17 @@
+Title: Calendar
+
+----
+
+Perpage: 5
+
+----
+
+Pagewrapper: 
+
+----
+
+Intro: Calendar intro text
+
+----
+
+Abouttxt: Calendar about text

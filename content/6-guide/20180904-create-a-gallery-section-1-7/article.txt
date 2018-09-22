@@ -1,0 +1,17 @@
+Title: Create a Gallery section 1.7
+
+----
+
+Coverimage: gallery01-08.jpg
+
+----
+
+Date: 2018-09-04
+
+----
+
+Text: 
+
+The new section "Pens" has been created and a single image "epen_cartridge" has been added.
+To make the new section live on the site, the page(section) must be toggled from "invisible" to "visible".
+On the main GallerySub page, under Pages click "Edit".

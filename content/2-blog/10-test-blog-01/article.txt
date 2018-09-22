@@ -1,0 +1,24 @@
+Title: Test blog 9/10 01
+
+----
+
+Coverimage: estate2.jpg
+
+----
+
+Date: 2017-07-03
+
+----
+
+Text: 
+
+# Special(blog) 09-10-18
+Testing this is a test it is only a test
+
+----
+
+Datestart: 2018-09-10
+
+----
+
+Dateend: 2018-09-12

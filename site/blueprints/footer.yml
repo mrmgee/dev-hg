@@ -1,0 +1,66 @@
+title: Footer
+
+pages: false
+
+files: false
+
+fields:
+  title:
+    label: Title
+    type:  title
+
+  link1label:
+    label: Instagram label
+    type:  text
+    width: 1/2
+
+  link1txt:
+    label: Instagram link
+    type:  text
+    width: 1/2
+
+  link2label:
+    label: Facebook label
+    type:  text
+    width: 1/2
+
+  link2txt:
+    label: Facebook link
+    type:  text
+    width: 1/2
+
+  link3label:
+    label: Twitter label
+    type:  text
+    width: 1/2
+
+  link3txt:
+    label: Twitter link
+    type:  text
+    width: 1/2
+
+  link4label:
+    label: Email label
+    type:  text
+    width: 1/2
+
+  link4txt:
+    label: Email link
+    type:  text
+    width: 1/2
+
+  addresstxt:
+    label: Address
+    type:  textarea
+
+  hourstxt:
+    label: Hours
+    type:  textarea
+
+  phonetxt:
+    label: Phone number
+    type:  text
+
+  copyrighttxt:
+    label: Copyright
+    type:  text

@@ -1,0 +1,55 @@
+Title: Footer
+
+----
+
+Link1txt: https://www.instagram.com/higher_grade_denver
+
+----
+
+Link2txt: https://www.facebook.com/HigherGradeCO/
+
+----
+
+Link3txt: https://www.twitter.com/higher_grade_denver
+
+----
+
+Link4txt: 
+
+----
+
+Addresstxt: 
+
+3111 W.38th Ave.
+Denver, 80211
+
+----
+
+Hourstxt: 
+
+Mon-Fri 10:00am - 7:00pm
+Sat-Sun 10:00am - 7:00pm
+
+----
+
+Phonetxt: (303) 955-0186
+
+----
+
+Copyrighttxt: &copy; Higher Grade
+
+----
+
+Link1label: @higher_grade_denver
+
+----
+
+Link2label: facebook.com/HigherGradeCO/
+
+----
+
+Link3label: @higher_grade_denver
+
+----
+
+Link4label: 

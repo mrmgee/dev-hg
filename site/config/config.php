@@ -14,13 +14,7 @@ valid license key. Please read the End User License Agreement
 for more information: http://getkirby.com/license
 
 */
-
-<<<<<<< HEAD
 c::set('license', 'K2-PRO-a4ee2fd2c6428278101e90bab82afadb');
-=======
-c::set('license', 'put your license key here');
->>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
-
 /*
 
 ---------------------------------------
@@ -32,5 +26,34 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+
+// Shrink large images on upload
+kirby()->hook('panel.file.upload', 'shrinkImage');
+kirby()->hook('panel.file.replace', 'shrinkImage');
+function shrinkImage($file, $maxDimension = 1800) {
+  try {
+    if ($file->type() == 'image' and ($file->width() > $maxDimension or $file->height() > $maxDimension)) {
+      
+      // Get original file path
+      $originalPath = $file->dir().'/'.$file->filename();
+      // Create a thumb and get its path
+      $resized = $file->resize($maxDimension,$maxDimension);
+      $resizedPath = $resized->dir().'/'.$resized->filename();
+      // Replace the original file with the resized one
+      copy($resizedPath, $originalPath);
+      unlink($resizedPath);
+    }
+  } catch(Exception $e) {
+    return response::error($e->getMessage());
+  }
+}
+
+
+// Enable Kirby StaticBuilder locally
+c::set('staticbuilder', true);
+// StaticBuilder requires Kirby’s cache to be disabled
+c::set('cache', false);
+
 
 c::set('debug', true);

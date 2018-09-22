@@ -11,23 +11,16 @@ fields:
     label: Cover Image
     type: image
     width: 1/2
-    
-<<<<<<< HEAD
+
   datestart:
     icon: calendar
     label: Start Date
-=======
-  date:
-    icon: calendar
-    label: Date
->>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
     type: date
     format: LL
     placeholder: Select a date…
     default: today
     required: true
     width: 1/2
-<<<<<<< HEAD
 
   dateend:
     icon: calendar
@@ -39,8 +32,6 @@ fields:
     required: true
     width: 1/2
 
-=======
->>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
   
   text:
     label: Text

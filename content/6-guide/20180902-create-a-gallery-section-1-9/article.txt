@@ -1,0 +1,25 @@
+Title: Create a Gallery section 1.9
+
+----
+
+Coverimage: gallery01-11.jpg
+
+----
+
+Date: 2018-09-02
+
+----
+
+Text: 
+
+The new section is now live.
+
+Note: A section must contain at least 1 image in order to display. A section with multiple images will not be live until it is visible.
+
+----
+
+Datestart: 2018-09-13
+
+----
+
+Dateend: 2018-09-13

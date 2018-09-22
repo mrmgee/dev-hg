@@ -1,0 +1,17 @@
+Title: Update Background images 1-1
+
+----
+
+Coverimage: bkgimg01-01.jpg
+
+----
+
+Datestart: 2018-09-20
+
+----
+
+Dateend: 2018-09-20
+
+----
+
+Text: On the Dashboard, click on the name under “Pages” to edit the background image. In this case "DailyMenu".

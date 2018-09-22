@@ -1,0 +1,13 @@
+Title: Create a Gallery section 1.3
+
+----
+
+Coverimage: gallery01-03.jpg
+
+----
+
+Date: 2018-09-08
+
+----
+
+Text: Enter the title under “Add a new page” and click the “Add” button in the lower right.

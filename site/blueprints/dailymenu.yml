@@ -1,6 +1,8 @@
 title: DailyMenu
 
 files: true
+    width: 1800
+    height: 1200
   fields:
     caption:
       label: Caption
@@ -23,8 +25,15 @@ fields:
     type:  title
 
   pagewrapper:
-    label: Page wrapper Image
+    label: Background image
     type: image
+    width: 1/2
+
+  info:
+    label: Note
+    type: info
+    text: >
+      Max image pixel size is 1800w x 1200h.
     width: 1/2
 
   intro:

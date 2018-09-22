@@ -1,0 +1,24 @@
+Title: Create a Gallery section 1.8
+
+----
+
+Coverimage: gallery01-10.jpg
+
+----
+
+Date: 2018-09-03
+
+----
+
+Text: 
+
+Under Invisible pages, click and drag the new "Pens" section over to the Visible pages column on the left.
+Reorder the sections by clicking and dragging to the preferred order.
+
+----
+
+Datestart: 2018-09-13
+
+----
+
+Dateend: 2018-09-13

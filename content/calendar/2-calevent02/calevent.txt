@@ -1,0 +1,21 @@
+Title: CalEvent02
+
+----
+
+Startdate: 2018-09-20
+
+----
+
+Enddate: 2018-09-20
+
+----
+
+Allday: 
+
+----
+
+Description: CalEvent02 description text here. It can be quite lengthy or short
+
+----
+
+Url: 

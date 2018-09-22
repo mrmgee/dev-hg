@@ -27,35 +27,21 @@
 
     <section class="wrapper style5">
     <div class="inner">
-      <?php if($articles->count()): ?>
-        <?php foreach($articles as $article): ?>
+
+    <?php $articlezz = $page->children()->visible()->sortBy('date', 'desc') ?>
+
+<?php foreach($articlezz as $article): ?>
 
           <article class="article index">
-
             <header class="article-header">
-              <h2 class="article-title">
+              <h3 class="article-title">
                 <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
-              </h2>
-
-              <p class="article-date"><?= $article->date('F jS, Y') ?></p>
+              </h3>
             </header>
-
-            <?php snippet('coverimage', $article) ?>
-
-            <div class="text">
-              <p>
-                <? // = $article->text()->kirbytext()->excerpt(50, 'words') ?>
-                <?= $article->text()->kirbytext() ?>
-                <a href="<?= $article->url() ?>" class="article-more">read more</a>
-              </p>
-            </div>
-
           </article>
 
         <?php endforeach ?>
-      <?php else: ?>
-        <p>This blog does not contain any articles yet.</p>
-      <?php endif ?>
+
     </div>
     <div style="clear: both;"></div>
     </section>
@@ -65,4 +51,4 @@
   </article><!-- END main -->
 </div><!-- END Page Wrapper -->
 
-<?php snippet('footer') ?>
+<?php snippet('foot-code') ?>

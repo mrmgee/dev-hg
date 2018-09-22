@@ -1,0 +1,20 @@
+Title: Update Background images 1-2
+
+----
+
+Coverimage: bkgimg01-02.jpg
+
+----
+
+Datestart: 2018-09-19
+
+----
+
+Dateend: 2018-09-19
+
+----
+
+Text: 
+
+Under “Files” click the “+ Add” button to upload the image. 
+Note: The image can be no larger than 1800px wide by 1200px high.

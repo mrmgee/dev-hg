@@ -1,0 +1,13 @@
+Title: Create a Gallery section 1.4
+
+----
+
+Coverimage: gallery01-04.jpg
+
+----
+
+Date: 2018-09-07
+
+----
+
+Text: Under Files click "Add".
