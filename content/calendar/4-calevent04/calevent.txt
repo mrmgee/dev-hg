@@ -1,0 +1,25 @@
+Title: CalEvent04
+
+----
+
+Startdate: 2018-09-22
+
+----
+
+Enddate: 2018-09-27 12:00:00
+
+----
+
+Allday: 
+
+----
+
+Description: CalEvent04 9/22 to 9/27 description text goes here more text now
+
+----
+
+Url: 
+
+----
+
+Fieldname: 2012-12-25 18:00:00

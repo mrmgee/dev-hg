@@ -1,0 +1,21 @@
+Title: CalEvent05
+
+----
+
+Startdate: 2018-09-25
+
+----
+
+Enddate: 2018-09-27 09:00:00
+
+----
+
+Allday: 
+
+----
+
+Description: CalEvent05 Tue 9/25 to Thu 9/27 -  -  is in the description here
+
+----
+
+Url: 

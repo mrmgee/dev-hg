@@ -1,0 +1,17 @@
+Title: Oct1 Test Blog
+
+----
+
+Coverimage: 
+
+----
+
+Datestart: 2018-09-20
+
+----
+
+Dateend: 2018-09-30
+
+----
+
+Text: Oct 1 testing this is text only text here does it show

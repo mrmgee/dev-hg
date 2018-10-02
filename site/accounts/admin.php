@@ -7,8 +7,8 @@ email: admin@test.com
 language: en
 role: admin
 history:
-  - guide/update-background-images-1-4
-  - guide/update-background-images-1-3
-  - guide/update-background-images-1-2
-  - guide/update-background-images-1-1
-  - calendar/calevent03
+  - strains/st03-indica
+  - strains/st02-sativa
+  - strains/st01-indica
+  - strains
+  - blog/oct1-test-blog

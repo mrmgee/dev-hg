@@ -1,0 +1,20 @@
+Title: Strains
+
+----
+
+Pagewrapper: banner.jpg
+
+----
+
+Intro: 
+
+## Higher Grade Strains
+Learn about curated cannabis products
+
+----
+
+Abouttxt: 
+
+----
+
+Perpage: 5

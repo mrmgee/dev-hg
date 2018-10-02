@@ -1,0 +1,25 @@
+Title: st01-Indica
+
+----
+
+Coverimage: Banana_Kush.jpg
+
+----
+
+Text: St01-Indica desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Strain: indica
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: mild

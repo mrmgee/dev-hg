@@ -1,0 +1,25 @@
+Title: St03-Indica
+
+----
+
+Coverimage: Chem_Dawg.jpg
+
+----
+
+Text: St03-Indica desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Strain: indica
+
+----
+
+Potency: strong
+
+----
+
+Characteristics: body

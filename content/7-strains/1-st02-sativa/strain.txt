@@ -1,0 +1,25 @@
+Title: St02-Sativa
+
+----
+
+Coverimage: Cheese.jpg
+
+----
+
+Text: St02-Sativa desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Strain: sativa
+
+----
+
+Potency: strong
+
+----
+
+Characteristics: mental
