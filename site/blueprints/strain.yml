@@ -1,0 +1,50 @@
+title: Strain
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  title
+    
+  coverimage:
+    label: Cover Image
+    type: image
+    width: 1/2
+  
+  text:
+    label: Text
+    type: markdown
+
+  featured:
+    label: Featured
+    type: checkbox
+
+  strain:
+    label: Strain
+    type: select
+    width: 1/2
+    options:
+      indica: Indica
+      sativa: Sativa
+      hybrid: Hybrid
+
+  potency:
+    label: Potency
+    type: select
+    width: 1/2
+    options:
+      weak: Weak
+      mild: Mild
+      strong: Strong
+
+  characteristics:
+    label: Characteristics
+    type: checkboxes
+    width: 1/2
+    options:
+      alert: Alert
+      body: Body high
+      mental: Mental high
+      stress: Stress relief
+      appetite: Appetite increase
