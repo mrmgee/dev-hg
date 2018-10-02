@@ -27,11 +27,12 @@
 
     <section class="wrapper style5">
     <div class="inner">
+      <?php $currentDateArticles = 0 ?>
       <?php if($articles->count()): ?>
-
-        <?php // foreach($articles as $article): ?>
         <?php foreach($articles->sortBy('datestart', 'desc') as $article):
           if($article->dateend('Y-m-d') >= date('Y-m-d')): ?>
+          <?php $currentDateArticles = 1;
+          ?>
 
           <article class="article index">
             <header class="article-header">
@@ -64,8 +65,11 @@
 
         <?php endif;
         endforeach ?>
+        <?php if ($currentDateArticles !== 1): ?>
+          <p>No current specials. Please check back later.</p>
+        <?php endif ?>
       <?php else: ?>
-        <p>This blog does not contain any articles yet.</p>
+        <p>No current specials. Please check back later.</p>
       <?php endif ?>
     </div>
     <div style="clear: both;"></div>

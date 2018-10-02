@@ -49,6 +49,36 @@ function shrinkImage($file, $maxDimension = 1800) {
   }
 }
 
+/*
+
+---------------------------------------
+DATEPICKER CONFIG
+
+DOCUMENTATION: https://github.com/Andi-Lo/kirby-datepicker#options
+---------------------------------------
+
+*/
+c::set('dp_dateFormat', 'd-m-Y');
+c::set("panel.stylesheet", "assets/css/datepicker/yourThemeFile.css");
+
+c::set('dp_enableTime', false);
+c::set('dp_noCalendar', false);
+c::set('dp_altFormat', 'F j, Y');
+c::set('dp_altInput', false);
+c::set('dp_altInputClass', '');
+c::set('dp_allowInput', false);
+c::set('dp_clickOpens',  true);
+c::set('dp_defaultDate', '');
+c::set('dp_enableSeconds', false);
+c::set('dp_hourIncrement', 1);
+c::set('dp_minuteIncrement',  5);
+c::set('dp_maxDate',  null);
+c::set('dp_minDate', null);
+c::set('dp_shorthandCurrentMonth', false);
+c::set('dp_weekNumbers', false);
+c::set('dp_time_24hr',  false);
+
+
 
 // Enable Kirby StaticBuilder locally
 c::set('staticbuilder', true);

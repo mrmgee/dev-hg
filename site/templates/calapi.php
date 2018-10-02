@@ -13,7 +13,7 @@ foreach($data as $article) {
   	'title'  => (string)$article->title(),
   	'allday'  => (string)$article->allday(),
     'start'  => (string)$article->startdate('Y-m-d'),
-    'end'  => (string)$article->enddate('Y-m-d'),
+    'end'  => (string)$article->enddate('Y-m-d H:i:s'),
     'description' => (string)$article->description(),
     'url'   => (string)$article->url()
   );
