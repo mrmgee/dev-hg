@@ -2,11 +2,11 @@ Title: CalEvent05
 
 ----
 
-Startdate: 2018-09-25
+Startdate: 2018-10-03
 
 ----
 
-Enddate: 2018-09-27 09:00:00
+Enddate: 2018-10-03 09:00:00
 
 ----
 
@@ -14,7 +14,7 @@ Allday:
 
 ----
 
-Description: CalEvent05 Tue 9/25 to Thu 9/27 -  -  is in the description here
+Description: CalEvent05 Wed 10/3 single day event  -  is in the description here
 
 ----
 

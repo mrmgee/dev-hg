@@ -6,7 +6,7 @@ Perpage: 5
 
 ----
 
-Pagewrapper: 
+Pagewrapper: banner.jpg
 
 ----
 
@@ -14,4 +14,4 @@ Intro: Calendar intro text
 
 ----
 
-Abouttxt: Calendar about text
+Abouttxt: 

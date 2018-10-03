@@ -1,12 +1,12 @@
-Title: CalEvents06
+Title: CalEvent06
 
 ----
 
-Startdate: 2018-09-24
+Startdate: 2018-10-01
 
 ----
 
-Enddate: 2018-09-22 10:00:00
+Enddate: 2018-10-05 10:00:00
 
 ----
 

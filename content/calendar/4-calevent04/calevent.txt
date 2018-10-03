@@ -2,11 +2,11 @@ Title: CalEvent04
 
 ----
 
-Startdate: 2018-09-22
+Startdate: 2018-10-09
 
 ----
 
-Enddate: 2018-09-27 12:00:00
+Enddate: 2018-10-10 12:00:00
 
 ----
 
@@ -14,7 +14,7 @@ Allday:
 
 ----
 
-Description: CalEvent04 9/22 to 9/27 description text goes here more text now
+Description: CalEvent04 Tue 10/9 to Wed 10/10 description text goes here more text now
 
 ----
 

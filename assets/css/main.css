@@ -1828,7 +1828,6 @@
 
 	}
 
-=======
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			border-bottom: solid 2px #fff;
 			display: inline-block;
@@ -1855,7 +1854,6 @@
 
 		}
 
->>>>>>> 026ed1da4f67572b5f9b3aead5ba1fa64f10d487
 	@media screen and (max-width: 980px) {
 
 		header br {
@@ -3399,6 +3397,10 @@
 			.wrapper, .blog .wrapper {
 				padding: 3em 2em 1em 2em ;
 			}
+			.cal-wrap .wrapper {
+				padding: 0.4em 0.8em 0.4em 0.8em;
+				height: 30em;
+			}
 
 		}
 
@@ -3972,6 +3974,10 @@
 
 			#main > header {
 				padding: 5em 3em 3em 3em ;
+			}
+			
+			.cal-wrap #main > header {
+				padding: 3em 3em 0.2em 3em ;
 			}
 
 				#main > header h2 {

@@ -1,3 +1,4 @@
+<?php echo '<h1>footer page->uri: '.$page->uri().'</h1>' ?> 
         <!-- Footer -->
           <footer id="footer">
             <div class="inner">
@@ -63,6 +64,15 @@ function initMap() {
       <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.photoswipe-global.js'?>"></script>
       <script src="<?php echo kirby()->urls()->assets() . '/js/photoswipe-ui-default.min.js'?>"></script>
 <?php endif ?>
+<?php if ($page->uri()=='calendar'): ?>
+    <!-- Calendar Scripts -->
+      <script src="<?php echo kirby()->urls()->assets() . '/js/moment.min.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/js/fullcalendar.min.js'?>"></script>
+      <script src="<?php echo kirby()->urls()->assets() . '/bootstrap-3.0.2/js/bootstrap.min.js'?>"></script>
+
+      <link rel="stylesheet" href="<?php echo kirby()->urls()->assets() . '/css/fullcalendar.css'?>">
+<!--       <link rel="stylesheet" href="<?php echo kirby()->urls()->assets() . '/bootstrap-3.0.2/css/bootstrap.css'?>"> -->
+<?php endif ?>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="<?php echo kirby()->urls()->assets() . '/js/jquery.cookie.js'?>"></script>
       <script src="<?php echo kirby()->urls()->assets() . '/js/age-verification.js'?>"></script>
@@ -77,5 +87,54 @@ function initMap() {
         ga('create', 'UA-102295425-1', 'auto');
         ga('send', 'pageview');
       </script>
+
+<?php if ($page->uri()=='calendar'): ?>
+      <script>
+          $(document).ready(function() {
+
+                      // $.getJSON('http://bpd/calendar/calapi', function(r) {
+                      $.getJSON('<?php echo kirby()->urls()->index() . '/calendar/calapi'  ?>', function(r) {
+                          $.each(r, function(i, article) {
+                              console.log(article);
+                          });
+                      });
+
+              $('#bootstrapModalFullCalendar').fullCalendar({
+                windowResize: function(view) {
+                  // alert('The calendar has adjusted to a window resize');
+                  if ($(window).width() < 514) {
+                    // $('#bootstrapModalFullCalendar').fullCalendar( 'changeView', 'basicDay' );
+                    $('#bootstrapModalFullCalendar').fullCalendar( 'changeView', 'month' ); 
+                    $('#bootstrapModalFullCalendar').fullCalendar( 'option', 'height', 'auto' );    
+                  } else {
+                    $('#bootstrapModalFullCalendar').fullCalendar( 'changeView', 'month' );
+                  }
+                },
+                  header: {
+                      left: '',
+                      center: 'prev title next',
+                      right: ''
+                  },
+                  eventClick:  function(event, jsEvent, view) {
+                      $('#modalTitle').html(event.title);
+                      $('#modalBody').html(event.description);
+                      $('#eventUrl').attr('href',event.url);
+                      $('#fullCalModal').modal();
+                      return false;
+                  },
+                  events: {
+                          url: '<?php echo kirby()->urls()->index() . '/calendar/calapi'  ?>',
+                          error: function() {
+                            $('#script-warning').show();
+                          }
+                        },
+                        loading: function(bool) {
+                          $('#loading').toggle(bool);
+                        }
+              });
+          });
+      </script>
+<?php endif ?>
+
   </body>
 </html>

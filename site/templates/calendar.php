@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
     <!-- Page Wrapper -->
-      <div id="page-wrapper">
+      <div id="page-wrapper" class="cal-wrap">
 
 <?php snippet('nav') ?>
 
@@ -14,15 +14,8 @@
             <section class="wrapper style5">
               <div class="inner">
 
-                <section id="abouttxt">
-                    <?= $page->abouttxt()->kirbytext() ?>
-                  <hr />
-                </section>
-
                 <section id="calendar">
-                  <div class="row uniform 50%">
-                      <h4>Daily Menu</h4> 
-
+                  <!-- <div class="row uniform 50%"> -->
 
                   <div id="bootstrapModalFullCalendar"></div>
 
@@ -42,8 +35,7 @@
                       </div>
                   </div>
 
-                  </div><!-- class="row uniform 50% -->
-
+                  <!-- </div> --><!-- class="row uniform 50% -->
                 </section>
 
               </div>
