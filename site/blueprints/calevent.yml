@@ -5,7 +5,6 @@ fields:
     label: Title
     type:  text
 
-
   startdate:
     icon: calendar
     label: Start Date
@@ -16,18 +15,29 @@ fields:
     required: true
     width: 1/2
 
-  enddate: 
-    label: Date & Time
-    type: datetime
-    date:
-      format: LL
-      default: today
-    time:
-      default: 09:00
+  starttime:
+    label: Start Time
+    type: time
+    format: 12
+    default: 10:00
+    width: 1/2
 
-  allday:
-    label: All-Day event
-    type:  text
+  enddate:
+    icon: calendar
+    label: End Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+
+  endtime:
+    label: End Time
+    type: time
+    format: 12
+    default: 20:00
+    width: 1/2
 
   description:
     label: Description

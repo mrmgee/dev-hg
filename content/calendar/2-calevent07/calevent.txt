@@ -1,0 +1,25 @@
+Title: CalEvent07
+
+----
+
+Startdate: 2018-10-05
+
+----
+
+Starttime: 10:00 AM
+
+----
+
+Enddate: 2018-10-05
+
+----
+
+Description: CalEvent07 Fri 10-05 description goes here
+
+----
+
+Url: 
+
+----
+
+Endtime: 07:00 PM

@@ -100,12 +100,17 @@ function initMap() {
                       });
 
               $('#bootstrapModalFullCalendar').fullCalendar({
+
+
+
                 windowResize: function(view) {
                   // alert('The calendar has adjusted to a window resize');
                   if ($(window).width() < 514) {
                     // $('#bootstrapModalFullCalendar').fullCalendar( 'changeView', 'basicDay' );
-                    $('#bootstrapModalFullCalendar').fullCalendar( 'changeView', 'month' ); 
-                    $('#bootstrapModalFullCalendar').fullCalendar( 'option', 'height', 'auto' );    
+                    $('#bootstrapModalFullCalendar').fullCalendar( 'changeView', 'month' );
+                    var calHeight = $(window).height()*0.96;
+                    $('#bootstrapModalFullCalendar').fullCalendar('option', 'contentHeight', calHeight);
+                    $('#bootstrapModalFullCalendar').fullCalendar('option', 'timeFormat', ' ');
                   } else {
                     $('#bootstrapModalFullCalendar').fullCalendar( 'changeView', 'month' );
                   }

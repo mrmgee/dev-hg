@@ -6,7 +6,7 @@ Startdate: 2018-10-01
 
 ----
 
-Enddate: 2018-10-05 10:00:00
+Enddate: 2018-10-05
 
 ----
 
@@ -19,3 +19,11 @@ Description: CalEvent06 Mon 9/24 to Fri 9/28 description text in this box
 ----
 
 Url: 
+
+----
+
+Starttime: 11:00 AM
+
+----
+
+Endtime: 07:00 PM

@@ -8,12 +8,17 @@ $data = $pages->find('calendar')->children()->visible()->flip()->paginate(10);
 $json = array();
 
 foreach($data as $article) {
+	$startdate = (string)$article->startdate();
+	$starttime = (string)$article->starttime();
+	$start = $startdate.' '.date('H:i', strtotime($starttime));
+	$enddate = (string)$article->enddate();
+	$endtime = (string)$article->endtime();
+	$end = $enddate.' '.date('H:i', strtotime($endtime));
 
   $json[] = array(
   	'title'  => (string)$article->title(),
-  	'allday'  => (string)$article->allday(),
-    'start'  => (string)$article->startdate('Y-m-d'),
-    'end'  => (string)$article->enddate('Y-m-d H:i:s'),
+    'start'  => $start,
+    'end'  => $end,
     'description' => (string)$article->description(),
     'url'   => (string)$article->url()
   );

@@ -343,7 +343,10 @@ temporary rendered events).
 
 @media (max-width: 736px) {
 .fc-scroller {
-  height: 14em;
+  /*height: 14em;*/
+
+/*  height: auto!important;*/
+  overflow-y: auto;
   }
 }
 
@@ -885,14 +888,6 @@ NOTE: use percentage font sizes or else old IE chokes
   /* so dragged elements can be above the view's main element */
   position: relative;
   z-index: 1; }
-
-
-@media (max-width: 736px) {
-.fc-view-container {
-  height: 14em;
-  }
-}
-
 
 /* BasicView
 --------------------------------------------------------------------------------------------------*/
