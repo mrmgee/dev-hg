@@ -7,5 +7,8 @@ email: admin@test.com
 language: en
 role: admin
 history:
-  - calendar/calevent07
-  - calendar/calevents06
+  - strains/st08-hybrid
+  - strains/st02-sativa
+  - strains/st03-indica
+  - strains/st01-indica
+  - strains/st07-indica

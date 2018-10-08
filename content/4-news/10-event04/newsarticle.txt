@@ -1,0 +1,17 @@
+Title: Event04
+
+----
+
+Coverimage: fruit_snax.jpg
+
+----
+
+Datestart: 2018-10-04
+
+----
+
+Dateend: 2018-10-14
+
+----
+
+Text: Event04 this is the description here lets get the image good

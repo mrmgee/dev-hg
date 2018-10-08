@@ -27,7 +27,7 @@ Denver, 80211
 
 Hourstxt: 
 
-Mon-Fri 10:00am - 7:00pm
+Mon-Fri 10:00am - 8:00pm
 Sat-Sun 10:00am - 7:00pm
 
 ----

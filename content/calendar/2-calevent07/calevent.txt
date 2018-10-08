@@ -23,3 +23,7 @@ Url:
 ----
 
 Endtime: 07:00 PM
+
+----
+
+Coverimage: banner_members.jpg

@@ -6,11 +6,11 @@ Coverimage: concentratejun-17-6.jpg
 
 ----
 
-Datestart: 2018-07-01
+Datestart: 2018-10-02
 
 ----
 
-Dateend: 2018-07-07
+Dateend: 2018-10-13
 
 ----
 

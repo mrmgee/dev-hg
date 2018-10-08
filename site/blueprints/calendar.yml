@@ -44,10 +44,6 @@ fields:
     label: Intro text
     type:  textarea
 
-  Abouttxt:
-    label: About text
-    type: textarea
-
   info:
     label: Hint
     type: info

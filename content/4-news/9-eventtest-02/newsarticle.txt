@@ -6,11 +6,11 @@ Coverimage: 06-26-17_the_deals.jpg
 
 ----
 
-Datestart: 2018-06-30
+Datestart: 2018-09-25
 
 ----
 
-Dateend: 2018-07-04
+Dateend: 2018-10-06
 
 ----
 

@@ -10,22 +10,8 @@
                 <li><a href="<?= $data->link4txt()->text() ?>" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
               </ul>
 
-<script type='text/javascript'>
-function initMap() {
-  var uluru = {lat: 39.7695843, lng: -105.02805360000002};
-  var gmap = new google.maps.Map(document.getElementById('gmap'), {
-    zoom: 12,
-    center: uluru
-  });
-  var marker = new google.maps.Marker({
-    position: uluru,
-    map: gmap,
-    title: 'Higher Grade'
-  });    
-}
-</script>
-<div id="gmap"></div>
-<script async defer src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDiFv0DmV5Qu3YIGOu3yEWKKpdVow18uC0&amp;callback=initMap'></script>
+
+<!-- Google Maps script --> 
 
             <ul class="contact">
               <li class="fa-home">
@@ -78,15 +64,9 @@ function initMap() {
       <script src="<?php echo kirby()->urls()->assets() . '/js/age-verification.js'?>"></script>
       <script src="<?php echo kirby()->urls()->assets() . '/js/main.js'?>"></script>
 
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-102295425-1', 'auto');
-        ga('send', 'pageview');
-      </script>
+<!-- Google Analytics script -->    
+
 
 <?php if ($page->uri()=='calendar'): ?>
       <script>

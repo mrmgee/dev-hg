@@ -1,4 +1,4 @@
-Title: St02-Sativa
+Title: st02-Sativa
 
 ----
 
@@ -11,6 +11,10 @@ Text: St02-Sativa desctiption text here
 ----
 
 Featured: 0
+
+----
+
+Type: flower
 
 ----
 

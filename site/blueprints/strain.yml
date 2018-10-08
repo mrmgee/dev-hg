@@ -19,6 +19,16 @@ fields:
   featured:
     label: Featured
     type: checkbox
+    width: 1/2
+
+  type:
+    label: Type
+    type: select
+    width: 1/2
+    options:
+      flower: Flower
+      concentrate: Concentrate
+      extract: Extract
 
   strain:
     label: Strain

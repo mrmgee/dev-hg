@@ -1,0 +1,29 @@
+Title: st06-Indica
+
+----
+
+Coverimage: strawberrybanana.jpg
+
+----
+
+Text: St0r-Indica strawberrybanana desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Type: flower
+
+----
+
+Strain: indica
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: mild

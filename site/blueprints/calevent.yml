@@ -43,6 +43,7 @@ fields:
     label: Description
     type:  textarea
 
-  url:
-    label: URL
-    type: text
+  coverimage:
+    label: Cover Image
+    type: image
+    width: 1/2

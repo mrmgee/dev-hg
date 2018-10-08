@@ -10,20 +10,9 @@
     <header>
       <?= $page->intro()->kirbytext() ?>
     </header>
-
-      <?php
-      // This page uses a separate controller to set variables, which can be used
-      // within this template file. This results in less logic in your templates,
-      // making them more readable. Learn more about controllers at:
-      // https://getkirby.com/docs/developer-guide/advanced/controllers
-      if($pagination->page() == 1):
-      ?>
         <div class="intro text">
           <?= $page->abouttxt()->kirbytext() ?>
         </div>
-      <?php endif ?>
-
-
 
     <section class="wrapper style5">
       <div class="inner">
@@ -33,37 +22,67 @@
 
 
 
-    <section class="wrapper style5">
-    <div class="inner">
-      <section id="one">
-        <div id="gallery" class="box alt">
-          <div class="row uniform 50%">
+
+
 
 <?php
-$currentDateArticles = 0;
-if($strains->count()):
-  foreach($strains as $strain):
-    $currentDateArticles = 1;
-    echo '<h4>'.$strain->title().'</h4>';
-    foreach($strain->images()->sortBy('sort', 'asc') as $image):
+
+$typecollection = page('strains')->children()->visible()->groupBy('type');
+//print_r($typecollection);
+
+foreach($typecollection as $typepage => $typeitems):
+  echo '<h4>'.$typepage.'</h4>';
+//    foreach($typeitems->images()->sortBy('sort', 'asc') as $image): //Good alpha image names
+    foreach($typeitems->sortBy('sort', 'asc') as $image): //Good for alpha title names
 echo '<!-- title:'.$image->page()->title()->html().' -->'; //TESTING
-      echo '<h4>'.$strain->strain().'</h4>';
-
-
-      echo '<div class="4u"><span class="image fit"><img src="'.$image->url().'" alt="'.$image->caption().'" /></span><p>'.$image->caption().'</p></div>';
+      echo '<div class="4u"><span class="image fit"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></span><p>'.$image->image()->caption().'</p></div>';
     endforeach;
-
-endforeach; ?>
-
+endforeach;
 
 
+foreach($typecollection as $typepage => $typeitems):
+  echo '<p>. . . . . . . . . . . .</p> <h4>'.$typepage.'</h4>';
+  echo '<ul>';
+    foreach($typeitems->sortBy('sort', 'asc') as $item):
+echo '<li>'.$item->title().'</li>';
+    endforeach;
+  echo '</ul>';
+endforeach;
 
-        <?php if ($currentDateArticles !== 1): ?>
-          <p>No current specials. Please check back later.</p>
-        <?php endif ?>
-      <?php else: ?>
-        <p>No current specials. Please check back later.</p>
-      <?php endif ?>
+
+
+echo '<p> . . . . . . . . . . .</p><br><p>. . . . . . . . . . . .</p>';
+
+
+
+$straincollection = page('strains')->children()->visible()->groupBy('strain');
+//print_r($typecollection);
+
+foreach($straincollection as $strainpage => $strainitems):
+  echo '<h4>'.$strainpage.'</h4>';
+//    foreach($typeitems->images()->sortBy('sort', 'asc') as $image): //Good alpha image names
+    foreach($strainitems->sortBy('sort', 'asc') as $image): //Good for alpha title names
+echo '<!-- title:'.$image->page()->title()->html().' -->'; //TESTING
+      echo '<div class="4u"><span class="image fit"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></span><p>'.$image->image()->caption().'</p></div>';
+    endforeach;
+endforeach;
+
+
+foreach($straincollection as $strainpage => $strainitems):
+  echo '<p>. . . . . . . . . . . .</p> <h4>'.$strainpage.'</h4>';
+  echo '<ul>';
+    foreach($strainitems->sortBy('sort', 'asc') as $item):
+echo '<li>'.$item->title().'</li>';
+    endforeach;
+  echo '</ul>';
+endforeach;
+
+
+
+?>
+
+
+
 
           </div><!-- END row uniform -->
         </div><!-- END #gallery -->
@@ -73,8 +92,6 @@ endforeach; ?>
     </div><!-- END inner -->
     <div style="clear: both;"></div>
     </section>
-
-    <?php snippet('pagination') ?>
 
   </article><!-- END main -->
 </div><!-- END Page Wrapper -->

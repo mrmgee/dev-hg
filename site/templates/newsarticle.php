@@ -13,12 +13,12 @@
                 <?= $page->date('F jS, Y','datestart') ?>
               </div>
             </header>
-
-          <?php snippet('coverimage', $page) ?>
           
           <div class="text">
             <?= $page->text()->kirbytext() ?>
           </div>
+
+          <?php snippet('coverimage', $page) ?>
         
           <?php snippet('prevnext', ['flip' => true]) ?>
 
@@ -26,4 +26,4 @@
         </section>
       </div><!-- END Page Wrapper -->
 
-<?php snippet('footer') ?>
+<?php snippet('foot-code') ?>
