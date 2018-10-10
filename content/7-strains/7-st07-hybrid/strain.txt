@@ -1,0 +1,29 @@
+Title: st07-Indica
+
+----
+
+Coverimage: cookiesncream.jpg
+
+----
+
+Text: St05-Indica Cookies n Cream desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Type: flower
+
+----
+
+Strain: hybrid
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: mild

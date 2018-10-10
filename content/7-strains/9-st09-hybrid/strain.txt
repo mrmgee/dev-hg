@@ -1,0 +1,29 @@
+Title: st09-Hybrid
+
+----
+
+Coverimage: sapdream.jpg
+
+----
+
+Text: St09-Hybrid Sap Dream desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Type: extract
+
+----
+
+Strain: hybrid
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: mild

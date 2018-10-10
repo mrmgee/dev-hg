@@ -1,5 +1,11 @@
 @import url(font-awesome.min.css);
+/*
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+*/
+@import url(opensans.css);
+
+
+
 
 /*
 	Spectral by HTML5 UP
@@ -1412,7 +1418,7 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: "open_sansregular", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -1472,6 +1478,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: "open_sansbold", Helvetica, sans-serif;
 		color: #fff;
 		font-weight: 800;
 		letter-spacing: 0.225em;

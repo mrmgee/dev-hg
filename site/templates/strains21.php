@@ -62,34 +62,72 @@
 
 // Controller
 // $projects = $page->children()->visible();
-//$value = 'type';
 
 foreach($projects as $typepage => $items):
+  
+  echo '<h4>'.$typepage.'</h4>';
 
-//  $typecollection = $projects->groupBy('type'); //Works well
-  $typecollection = $projects->groupBy($value);
-
-  foreach($typecollection as $typepage => $typeitems):
-      echo '<h4>'.$value.'-'.$typepage.'</h4>';
-
-    foreach($typeitems->sortBy('sort', 'asc') as $image): //Good for alpha title names
-echo '<!-- title:'.$image->page()->title()->html().' -->'; //TESTING
-      echo '<div class="4u"><span class="image fit"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></span><p>'.$image->image()->caption().'</p></div>';
-    endforeach;
-
-//  echo '<h4>'.$typepage.'</h4>';  // STRAINS/ST03-INDICA
-//  echo '<h4>'.$items->title().'</h4>';  // ST03-INDICA
-
-/*
-    foreach($items->images()->sortBy('sort', 'asc') as $image): //Good for alpha title names
-      echo '<div class="4u"><span class="image fit"><img src="'.$image->url().'" /></span><p>'.$image->caption().'</p></div>';
-    endforeach;
-*/
-
+  foreach($items->images()->sortBy('sort', 'asc') as $image): //Good for alpha title names
+    echo '<div class="4u"><span class="image fit"><img src="'.$image->url().'" /></span><p>'.$image->caption().'</p></div>';
   endforeach;
 
 endforeach;
 
+
+/*
+
+$typecollection = page('strains')->children()->visible()->groupBy('type');
+//print_r($typecollection);
+
+foreach($typecollection as $typepage => $typeitems):
+  echo '<h4>'.$typepage.'</h4>';
+//    foreach($typeitems->images()->sortBy('sort', 'asc') as $image): //Good alpha image names
+    foreach($typeitems->sortBy('sort', 'asc') as $image): //Good for alpha title names
+echo '<!-- title:'.$image->page()->title()->html().' -->'; //TESTING
+      echo '<div class="4u"><span class="image fit"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></span><p>'.$image->image()->caption().'</p></div>';
+    endforeach;
+endforeach;
+
+
+foreach($typecollection as $typepage => $typeitems):
+  echo '<p>. . . . . . . . . . . .</p> <h4>'.$typepage.'</h4>';
+  echo '<ul>';
+    foreach($typeitems->sortBy('sort', 'asc') as $item):
+echo '<li>'.$item->title().'</li>';
+    endforeach;
+  echo '</ul>';
+endforeach;
+
+
+
+echo '<p> . . . . . . . . . . .</p><br><p>. . . . . . . . . . . .</p>';
+
+
+
+$straincollection = page('strains')->children()->visible()->groupBy('strain');
+//print_r($typecollection);
+
+foreach($straincollection as $strainpage => $strainitems):
+  echo '<h4>'.$strainpage.'</h4>';
+//    foreach($typeitems->images()->sortBy('sort', 'asc') as $image): //Good alpha image names
+    foreach($strainitems->sortBy('sort', 'asc') as $image): //Good for alpha title names
+echo '<!-- title:'.$image->page()->title()->html().' -->'; //TESTING
+      echo '<div class="4u"><span class="image fit"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></span><p>'.$image->image()->caption().'</p></div>';
+    endforeach;
+endforeach;
+
+
+foreach($straincollection as $strainpage => $strainitems):
+  echo '<p>. . . . . . . . . . . .</p> <h4>'.$strainpage.'</h4>';
+  echo '<ul>';
+    foreach($strainitems->sortBy('sort', 'asc') as $item):
+echo '<li>'.$item->title().'</li>';
+    endforeach;
+  echo '</ul>';
+endforeach;
+
+
+*/
 ?>
 
 
