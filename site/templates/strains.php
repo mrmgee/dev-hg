@@ -16,16 +16,15 @@
 
     <section class="wrapper style5">
       <div class="inner">
-        <section id="one">
-          <div id="gallery" class="box alt">
-            <div class="row uniform 50%">
-
-
+        <section id="filt">
 
 <form id="filters" method="post">
   <!-- give the select the name of the category to filter by -->
-  <select name="type" onchange="this.form.submit()">
-    <option selected value="">Select a type</option>
+
+          <ul class="actions fit">
+            <li class="select-wrapper">
+  <select  name="type" onchange="this.form.submit()">
+    <option selected value="">Type</option>
 
     <!-- let's fill the options with our colors -->
     <?php foreach($type as $item): ?>
@@ -36,27 +35,35 @@
       <option<?php e(isset($data['type']) && $data['type'] == $item, ' selected') ?> value="<?= $item ?>"><?= $item?></option>
     <?php endforeach ?>
   </select>
+              </li>
+              <li class="select-wrapper">
   <select name="strain" onchange="this.form.submit()">
-    <option selected value="">Select a strain</option>
+    <option selected value="">Strain</option>
 
     <?php foreach($strain as $item): ?>
       <?php if ($item == "") continue; ?>
       <option<?php e(isset($data['strain']) && $data['strain'] == $item, ' selected') ?> value="<?= $item ?>"><?= $item ?></option>
     <?php endforeach ?>
   </select>
+              </li>
+              <li class="select-wrapper">
   <select name="potency" onchange="this.form.submit()">
-    <option selected value="">Select a potency</option>
+    <option selected value="">Potency</option>
 
     <?php foreach($potency as $item): ?>
       <?php if($item == "") continue; ?>
       <option<?php e(isset($data['potency']) && $data['potency'] == $item, ' selected') ?> value="<?= $item ?>"><?= $item ?></option>
     <?php endforeach ?>
   </select>
+              </li>
+          </ul>
 </form>
 
+        </section>
 
-
-
+        <section id="one">
+          <div id="gallery" class="box alt">
+            <div class="row uniform 50%">
 <?php
 
 
