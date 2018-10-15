@@ -18,3 +18,7 @@ Abouttxt:
 ----
 
 Perpage: 5
+
+----
+
+Featnum: 4

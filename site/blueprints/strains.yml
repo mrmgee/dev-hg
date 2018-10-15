@@ -26,11 +26,11 @@ fields:
     required: true
     width: 3/4
 
-  perpage:
-    label: Posts per page
+  featnum:
+    label: Featured items
     type: number
     min: 1
-    max: 20
+    max: 8
     default: 5
     width: 1/4
 

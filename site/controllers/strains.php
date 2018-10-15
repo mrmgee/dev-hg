@@ -6,6 +6,7 @@ return function($site, $pages, $page) {
   $strain = $page->children()->pluck('strain', null, true);
   $potency = $page->children()->pluck('potency', null, true);
   $keys = array('type', 'strain', 'potency');
+  $featnum  = $page->featnum()->int();
 
   // return all children if nothing is selected
   $projects = $page->children()->visible(); //orig
@@ -23,6 +24,7 @@ return function($site, $pages, $page) {
 
         // only act if the value is not empty and the key is valid
         if($value && in_array($key, $keys)) {
+echo '<!-- key:'.$key.'-value:'.$value.' -->';  // <!-- key:type-value:concentrate -->
           // return false if the child page's category and value don't match
           if(!$match = $child->$key() == $value) {
             return false;
@@ -35,5 +37,5 @@ return function($site, $pages, $page) {
       return $value;
     });
   }
-  return compact('projects', 'type', 'strain', 'potency', 'data', 'value');
+  return compact('projects', 'type', 'strain', 'potency', 'data', 'value', 'featnum');
 };

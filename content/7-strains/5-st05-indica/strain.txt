@@ -10,7 +10,7 @@ Text: St05-Indica The Glue desctiption text here
 
 ----
 
-Featured: 0
+Featured: 1
 
 ----
 

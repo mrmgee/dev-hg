@@ -10,7 +10,7 @@ Text: St02-Sativa desctiption text here
 
 ----
 
-Featured: 1
+Featured: 0
 
 ----
 

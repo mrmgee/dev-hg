@@ -10,7 +10,7 @@ Text: St08-Hybrid originalgangster desctiption text here
 
 ----
 
-Featured: 0
+Featured: 1
 
 ----
 

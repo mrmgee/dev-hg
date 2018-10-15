@@ -58,18 +58,82 @@
               </li>
           </ul>
 </form>
-
         </section>
 
         <section id="one">
           <div id="gallery" class="box alt">
             <div class="row uniform 50%">
+
+<style type="text/css">
+  .imgcap {
+    width: 100%;
+    position: absolute;
+    bottom: 0.5%;
+    left: 50%;
+    transform: translate( -50%, 100%);
+    text-align: left;
+    padding: 0 0 0 0.5em;
+/*    border-top: solid 2px #fff;*/
+/*    background: rgba(144, 144, 144, 0.7);*/
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    font-weight: 500;
+
+  }
+  .sativa {
+    border-bottom: solid 3px #239ed7;
+  }
+  .indica {
+    border-bottom: solid 3px #bd2ee6;
+  }
+  .hybrid {
+    border-bottom: solid 3px #ff3366;
+  }
+</style>        
 <?php
-
-
 // Controller
 // $projects = $page->children()->visible();
 //$value = 'type';
+//featnum
+$featcount = 1;
+
+
+$arr = get_object_vars($projects);  //cast Object to array
+$chkarr = array_filter($arr); //iterates over each array value
+
+
+//dump($arr);
+
+if (!$chkarr) {
+// if ($projects == false) {
+  echo '<p>No matches</p>';
+} else {
+echo '<!-- Matches below -->';
+
+//Good below
+foreach($projects as $featureditem):
+
+    if ($featureditem->featured()->int() == 1) {
+      if ( $featcount == 1) {
+        echo '<h4>Featured</h4>';
+      } else {
+        echo '<!-- already header -->';
+      }
+
+      if ($featcount <= $featnum) {
+  //    echo '<h4>'.$featureditem->title().'</h4>';
+      echo '<div class="3u"><span class="image fit"><img src="'.$featureditem->image()->url().'" alt="'.$featureditem->image()->caption().'" /><p class="imgcap '.$featureditem->strain()->value().'">Strawberry '.$featureditem->image()->caption().'</p></span></div>';
+echo '<!-- featcount/featnum: '.$featcount.'/'.$featnum.' -->';  //Testing
+        $featcount++;
+      } else {
+        echo '<!-- NOT featcount -->';
+      }
+    } else {
+      echo '<!-- NOT featured -->';
+    }
+endforeach;
+
+
 
 foreach($projects as $typepage => $items):
 
@@ -84,19 +148,13 @@ echo '<!-- title:'.$image->page()->title()->html().' -->'; //TESTING
       echo '<div class="4u"><span class="image fit"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></span><p>'.$image->image()->caption().'</p></div>';
     endforeach;
 
-//  echo '<h4>'.$typepage.'</h4>';  // STRAINS/ST03-INDICA
-//  echo '<h4>'.$items->title().'</h4>';  // ST03-INDICA
-
-/*
-    foreach($items->images()->sortBy('sort', 'asc') as $image): //Good for alpha title names
-      echo '<div class="4u"><span class="image fit"><img src="'.$image->url().'" /></span><p>'.$image->caption().'</p></div>';
-    endforeach;
-*/
-
   endforeach;
 
 endforeach;
 
+
+
+} //end check array empty
 ?>
 
 

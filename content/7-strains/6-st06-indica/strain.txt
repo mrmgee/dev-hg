@@ -10,7 +10,7 @@ Text: St0r-Indica strawberrybanana desctiption text here
 
 ----
 
-Featured: 0
+Featured: 1
 
 ----
 
