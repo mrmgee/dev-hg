@@ -1,4 +1,3 @@
-<?php echo '<h1>footer page->uri: '.$page->uri().'</h1>' ?> 
         <!-- Footer -->
           <footer id="footer">
             <div class="inner">
