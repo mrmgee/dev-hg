@@ -7,8 +7,8 @@ email: admin@test.com
 language: en
 role: admin
 history:
-  - strains/st04-indica
-  - strains/st06-indica
-  - strains/st02-sativa
-  - strains
-  - strains/st09-hybrid
+  - strains/banana-kush
+  - strains/birthday-cake
+  - strains/skywalker
+  - strains/the-glue
+  - strains/bubba-berry

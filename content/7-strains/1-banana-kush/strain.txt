@@ -1,0 +1,29 @@
+Title: Banana Kush
+
+----
+
+Coverimage: bananakush.jpg
+
+----
+
+Text: St01-Indica desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Type: Flower
+
+----
+
+Strain: Indica
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: Mild

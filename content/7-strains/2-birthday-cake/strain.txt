@@ -1,0 +1,29 @@
+Title: Birthday Cake
+
+----
+
+Coverimage: bdc.jpg
+
+----
+
+Text: Birthday Cake St02-Indica desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Type: Flower
+
+----
+
+Strain: Indica
+
+----
+
+Potency: Strong
+
+----
+
+Characteristics: mental

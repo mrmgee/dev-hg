@@ -1,0 +1,29 @@
+Title: Bubba Berry
+
+----
+
+Coverimage: bubbaberry.jpg
+
+----
+
+Text: St0r-Indica Bubba Berry desctiption text here
+
+----
+
+Featured: 1
+
+----
+
+Type: Flower
+
+----
+
+Strain: Indica
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: Mild

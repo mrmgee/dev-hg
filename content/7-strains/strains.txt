@@ -22,3 +22,38 @@ Perpage: 5
 ----
 
 Featnum: 4
+
+----
+
+Type: 
+
+- Flower
+- Concentrate
+- Extract
+- Bud
+
+----
+
+Potencyval: 
+
+- Weak
+- Mild
+- Strong
+
+----
+
+Strainval: 
+
+- Indica
+- Sativa
+- Hybrid
+
+----
+
+Characteristics: 
+
+- Alert
+- Body high
+- Mental high
+- Stress relief
+- Appetite increase

@@ -1,0 +1,29 @@
+Title: The Glue
+
+----
+
+Coverimage: theglue.jpg
+
+----
+
+Text: St05-Indica The Glue desctiption text here
+
+----
+
+Featured: 1
+
+----
+
+Type: Flower
+
+----
+
+Strain: Indica
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: Mild

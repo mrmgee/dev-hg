@@ -1,0 +1,29 @@
+Title: Skywalker
+
+----
+
+Coverimage: skywalker.jpg
+
+----
+
+Text: St0r-Indica Skywalker desctiption text here
+
+----
+
+Featured: 0
+
+----
+
+Type: Flower
+
+----
+
+Strain: Indica
+
+----
+
+Characteristics: mental
+
+----
+
+Potency: Mild
