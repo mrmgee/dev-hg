@@ -43,6 +43,30 @@ fields:
     label: Intro text
     type:  textarea
 
+  Type:
+    label: Type of product
+    type: list
+    placeholder: Add new
+    width: 1/4
+
+  Strainval:
+    label: Strain
+    type: list
+    placeholder: Add new
+    width: 1/4
+
+  Potencyval:
+    label: Potency of product
+    type: list
+    placeholder: Add new
+    width: 1/4
+
+  characteristics:
+    label: Characteristics
+    type: list
+    placeholder: Add new
+    width: 1/4
+
   Abouttxt:
     label: About text
     type: textarea

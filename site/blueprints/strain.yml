@@ -25,28 +25,31 @@ fields:
     label: Type
     type: select
     width: 1/2
-    options:
-      flower: Flower
-      concentrate: Concentrate
-      extract: Extract
+    options: field
+    field:
+      page: strains
+      name: type
+      separator: - 
 
   strain:
     label: Strain
     type: select
     width: 1/2
-    options:
-      indica: Indica
-      sativa: Sativa
-      hybrid: Hybrid
+    options: field
+    field:
+      page: strains
+      name: Strainval
+      separator: - 
 
-  potency:
+  Potency:
     label: Potency
     type: select
     width: 1/2
-    options:
-      weak: Weak
-      mild: Mild
-      strong: Strong
+    options: field
+    field:
+      page: strains
+      name: Potencyval
+      separator: - 
 
   characteristics:
     label: Characteristics

@@ -80,13 +80,13 @@
     font-weight: 500;
 
   }
-  .sativa {
+  .sativa, .Sativa {
     border-bottom: solid 3px #239ed7;
   }
-  .indica {
+  .indica, .Indica {
     border-bottom: solid 3px #bd2ee6;
   }
-  .hybrid {
+  .hybrid, .Hybrid {
     border-bottom: solid 3px #ff3366;
   }
 </style>        
@@ -145,7 +145,7 @@ foreach($projects as $typepage => $items):
 
     foreach($typeitems->sortBy('sort', 'asc') as $image): //Good for alpha title names
 echo '<!-- title:'.$image->page()->title()->html().' -->'; //TESTING
-      echo '<div class="4u"><span class="image fit"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></span><p>'.$image->image()->caption().'</p></div>';
+      echo '<div class="4u"><span class="image fit"><a href="'.$image->url().'"><img src="'.$image->image()->url().'" alt="'.$image->image()->caption().'" /></a><p class="imgcap '.$image->strain()->value().'">'.$image->image()->page()->title().'</p></span></div>';
     endforeach;
 
   endforeach;
