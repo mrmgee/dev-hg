@@ -55,9 +55,8 @@ fields:
     label: Characteristics
     type: checkboxes
     width: 1/2
-    options:
-      alert: Alert
-      body: Body high
-      mental: Mental high
-      stress: Stress relief
-      appetite: Appetite increase
+    options: field
+    field:
+      page: strains
+      name: characteristicsval
+      separator: - 

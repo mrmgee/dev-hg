@@ -6,7 +6,7 @@ Coverimage: bananakush.jpg
 
 ----
 
-Text: St01-Indica desctiption text here
+Text: This legendary West Coast strain crosses Ghost OG and Skunk Haze to create an indica-dominant hybrid that tastes and smells like a bushel of fresh bananas. Banana Kush tends to provide a mellow buzz alongside a relaxed sense of euphoria. A great choice when dealing with stress or depression, Banana Kush also helps stimulate creative juices and can help you remain talkative in social settings.
 
 ----
 
@@ -22,7 +22,7 @@ Strain: Indica
 
 ----
 
-Characteristics: mental
+Characteristics: Alert, Mental high, Stress relief
 
 ----
 

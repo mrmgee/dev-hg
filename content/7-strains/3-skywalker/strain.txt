@@ -6,7 +6,10 @@ Coverimage: skywalker.jpg
 
 ----
 
-Text: St0r-Indica Skywalker desctiption text here
+Text: 
+
+St0r-Indica Skywalker desctiption text here
+A dank and potent strain, Skywalker OG offers a super relaxed high with a nice blend of hybrid effects. An indica-dominant beauty that weighs in at 85/15, it’s the lovechild of Skywalker and OG Kush. Like its namesake, it will bring strong kush attributes and leave you feeling like you’re in the clouds for hours.
 
 ----
 
@@ -22,7 +25,7 @@ Strain: Indica
 
 ----
 
-Characteristics: mental
+Characteristics: Body high, Stress relief
 
 ----
 

@@ -50,7 +50,7 @@ Strainval:
 
 ----
 
-Characteristics: 
+Characteristicsval: 
 
 - Alert
 - Body high

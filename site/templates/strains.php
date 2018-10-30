@@ -81,13 +81,13 @@
 
   }
   .sativa, .Sativa {
-    border-bottom: solid 3px #239ed7;
-  }
-  .indica, .Indica {
-    border-bottom: solid 3px #bd2ee6;
+    border-bottom: solid 3px #d44727;
   }
   .hybrid, .Hybrid {
-    border-bottom: solid 3px #ff3366;
+    border-bottom: solid 3px #6aa84f;
+  }
+  .indica, .Indica {
+    border-bottom: solid 3px #6e335e;
   }
 </style>        
 <?php

@@ -61,15 +61,11 @@ fields:
     placeholder: Add new
     width: 1/4
 
-  characteristics:
+  characteristicsval:
     label: Characteristics
     type: list
     placeholder: Add new
     width: 1/4
-
-  Abouttxt:
-    label: About text
-    type: textarea
 
   info:
     label: Hint

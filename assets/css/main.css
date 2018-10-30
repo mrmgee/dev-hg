@@ -2169,6 +2169,16 @@
 		margin:0 5em 1em 0;
 	}
 
+	.Sativa {
+		border-bottom: solid 3px #d44727;
+	}
+	.Hybrid {
+		border-bottom: solid 3px #6aa84f;
+	}
+	.Indica {
+		border-bottom: solid 3px #6e335e;
+	}
+
 /* Image */
 
 	.image {
@@ -2846,7 +2856,12 @@
 					text-align: center;
 					width: 100%;
 				}
-				
+
+				#strain.spotlight .content {
+					padding: 0.6em 1em;
+					text-align: left;
+					font-size: 0.96em;
+				}
 
 				header.article-header {
 					padding: 0.5em 0em 0em 0em ;

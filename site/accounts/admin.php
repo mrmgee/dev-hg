@@ -7,8 +7,8 @@ email: admin@test.com
 language: en
 role: admin
 history:
-  - strains/banana-kush
-  - strains/birthday-cake
   - strains/skywalker
-  - strains/the-glue
-  - strains/bubba-berry
+  - strains/birthday-cake
+  - strains/banana-kush
+  - strains/strawberry-banana
+  - strains/granola-funk
